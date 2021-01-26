@@ -85,8 +85,8 @@
 #include <openssl/crypto.h>
 #include <openssl/rand.h>
 
-const char * const PIVX_CONF_FILENAME = "pivx.conf";
-const char * const PIVX_PID_FILENAME = "pivx.pid";
+const char * const PIVX_CONF_FILENAME = "mbt.conf";
+const char * const PIVX_PID_FILENAME = "mbt.pid";
 const char * const PIVX_MASTERNODE_CONF_FILENAME = "masternode.conf";
 
 
@@ -270,7 +270,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "pivx";
+    const char* pszModule = "mbt";
 #endif
     if (pex)
         return strprintf(
@@ -293,7 +293,7 @@ fs::path GetDefaultDataDir()
 // Windows < Vista: C:\Documents and Settings\Username\Application Data\MBT
 // Windows >= Vista: C:\Users\Username\AppData\Roaming\MBT
 // Mac: ~/Library/Application Support/MBT
-// Unix: ~/.pivx
+// Unix: ~/.mbt
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "MBT";
@@ -327,7 +327,7 @@ static fs::path ZC_GetBaseParamsDir()
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\MBTParams
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\MBTParams
     // Mac: ~/Library/Application Support/MBTParams
-    // Unix: ~/.pivx-params
+    // Unix: ~/.mbt-params
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "MBTParams";
@@ -467,7 +467,7 @@ void ReadConfigFile(std::map<std::string, std::string>& mapSettingsRet,
 {
     fs::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()) {
-        // Create empty pivx.conf if it does not exist
+        // Create empty mbt.conf if it does not exist
         FILE* configFile = fsbridge::fopen(GetConfigFile(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -478,7 +478,7 @@ void ReadConfigFile(std::map<std::string, std::string>& mapSettingsRet,
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it) {
-        // Don't overwrite existing settings so command line settings override pivx.conf
+        // Don't overwrite existing settings so command line settings override mbt.conf
         std::string strKey = std::string("-") + it->string_key;
         std::string strValue = it->value[0];
         InterpretNegativeSetting(strKey, strValue);
