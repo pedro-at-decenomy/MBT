@@ -74,9 +74,9 @@ static bool AppInitRPC(int argc, char* argv[])
         std::string strUsage = _("Mobolith Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  pivx-cli [options] <command> [params]  " + _("Send command to Mobolith Core") + "\n" +
-                        "  pivx-cli [options] help                " + _("List commands") + "\n" +
-                        "  pivx-cli [options] help <command>      " + _("Get help for a command") + "\n";
+                        "  mbt-cli [options] <command> [params]  " + _("Send command to Mobolith Core") + "\n" +
+                        "  mbt-cli [options] help                " + _("List commands") + "\n" +
+                        "  mbt-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessageCli();
         }
