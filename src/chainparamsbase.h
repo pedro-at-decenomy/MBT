@@ -11,7 +11,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between mbt-cli and mbtd)
- * of a given instance of the Pivx system.
+ * of a given instance of the Mobolith system.
  */
 class CBaseChainParams
 {
