@@ -14,6 +14,14 @@ src/pivx-tx
 src/bench/bench_pivx
 src/test/test_pivx
 src/qt/test/test_pivx-qt
+src/mbt
+src/mbtd
+src/mbt-cli
+src/mbt-tx
+src/bench/bench_mbt
+src/test/test_mbt
+src/qt/test/test_mbt-qt
+
 
 # autoreconf
 Makefile.in
