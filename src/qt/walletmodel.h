@@ -106,7 +106,7 @@ public:
     }
 };
 
-/** Interface to PIVX wallet from Qt view code. */
+/** Interface to MBT wallet from Qt view code. */
 class WalletModel : public QObject
 {
     Q_OBJECT
