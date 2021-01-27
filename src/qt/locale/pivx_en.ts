@@ -6737,7 +6737,7 @@ Mobolith Core Wallet</source>
     </message>
 </context>
 <context>
-    <name>pivx-core</name>
+    <name>mbt-core</name>
     <message>
         <location filename="../pivxstrings.cpp" line="+12"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
