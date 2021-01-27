@@ -2081,7 +2081,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
 </context>
 <context>
-    <name>MBTXGUI</name>
+    <name>PIVXGUI</name>
     <message>
         <source>Mobolith Core</source>
         <translation>Mobolith Core</translation>
@@ -5452,7 +5452,7 @@ Portafoglio Mobolith Core.</translation>
     </message>
 </context>
 <context>
-    <name>mbt-core</name>
+    <name>pivx-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = conserva i metadati tx, ad esempio il proprietario dell'account e le informazioni sulla richiesta di pagamento, 2 = elimina i metadati tx)</translation>

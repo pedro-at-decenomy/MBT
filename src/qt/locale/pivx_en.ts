@@ -2546,7 +2546,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</source>
     </message>
 </context>
 <context>
-    <name>MBTGUI</name>
+    <name>PIVXGUI</name>
     <message>
         <location filename="../pivx/pivxgui.cpp" line="+69"/>
         <location line="+298"/>
@@ -6737,7 +6737,7 @@ Mobolith Core Wallet</source>
     </message>
 </context>
 <context>
-    <name>mbt-core</name>
+    <name>pivx-core</name>
     <message>
         <location filename="../pivxstrings.cpp" line="+12"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
