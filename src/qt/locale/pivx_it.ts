@@ -2081,7 +2081,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
 </context>
 <context>
-    <name>PIVXGUI</name>
+    <name>MBTXGUI</name>
     <message>
         <source>Mobolith Core</source>
         <translation>Mobolith Core</translation>
@@ -3762,12 +3762,12 @@ Verifica di aver installato un editor di testo predeterminato.</translation>
         <translation>Esporta elenco indirizzi</translation>
     </message>
     <message>
-        <source>PIVX_tx_csv_export(*.csv)</source>
-        <translation>PIVX_tx_csv_export(*.csv)</translation>
+        <source>MBT_tx_csv_export(*.csv)</source>
+        <translation>MBT_tx_csv_export(*.csv)</translation>
     </message>
     <message>
-        <source>PIVX_addresses_csv_export(*.csv)</source>
-        <translation>PIVX_addresses_csv_export(*.csv)</translation>
+        <source>MBT_addresses_csv_export(*.csv)</source>
+        <translation>MBT_addresses_csv_export(*.csv)</translation>
     </message>
     <message>
         <source>Please select a folder to export the csv file first.</source>
