@@ -114,12 +114,12 @@
         <translation>Alıcı Adres</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödemeleri göndermek için olan PIVX adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
+        <source>These are your Mobolith addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödemeleri göndermek için olan Mobolith adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödemeleri almak için olan PIVX adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
+        <source>These are your Mobolith addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Bunlar ödemeleri almak için olan Mobolith adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -348,8 +348,8 @@ Stake için kaldırın</translation>
         <translation>İPTAL</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, PIV'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>Mobolith will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MBTs from being stolen by malware infecting your computer.</source>
+        <translation>Mobolith şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, MBT'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -418,8 +418,8 @@ Stake için kaldırın</translation>
         <translation>Birikimler</translation>
     </message>
     <message>
-        <source>0,00 PIV</source>
-        <translation>0,00 PIV</translation>
+        <source>0,00 MBT</source>
+        <translation>0,00 MBT</translation>
     </message>
     <message>
         <source>address</source>
@@ -460,8 +460,8 @@ Stake için kaldırın</translation>
         <translation>Koin Seçimi</translation>
     </message>
     <message>
-        <source>Select PIV Outputs to Spend</source>
-        <translation>Harcama için PIV Çıktılarını Seçin</translation>
+        <source>Select MBT Outputs to Spend</source>
+        <translation>Harcama için MBT Çıktılarını Seçin</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -488,8 +488,8 @@ Stake için kaldırın</translation>
         <translation>Miktar</translation>
     </message>
     <message>
-        <source>0.00 PIV</source>
-        <translation>0.00 PIV</translation>
+        <source>0.00 MBT</source>
+        <translation>0.00 MBT</translation>
     </message>
     <message>
         <source>0</source>
@@ -735,9 +735,9 @@ Stake için kaldırın</translation>
         <translation>Delegasyonların yüklenmesinde hata:%1</translation>
     </message>
     <message>
-        <source>You can delegate your PIVs, letting a hot node (24/7 online node)
+        <source>You can delegate your MBTs, letting a hot node (24/7 online node)
 stake on your behalf, while you keep the keys securely offline.</source>
-        <translation>Sıcak bir düğüme izin vererek PIV'lerinizi devredebilirsiniz (7/24 çevrimiçi düğüm)
+        <translation>Sıcak bir düğüme izin vererek MBT'lerinizi devredebilirsiniz (7/24 çevrimiçi düğüm)
 anahtarları çevrimdışı bir şekilde güvenli tutarken, kendi adınıza stake yapın.</translation>
     </message>
     <message>
@@ -917,8 +917,8 @@ kopyala</translation>
         <translation>Filtrele</translation>
     </message>
     <message>
-        <source>Amount of PIV and zPIV staked.</source>
-        <translation>Stake edilmiş PIV ve zPIV miktarı</translation>
+        <source>Amount of MBT and zMBT staked.</source>
+        <translation>Stake edilmiş MBT ve zMBT miktarı</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -1013,8 +1013,8 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>Gönderen adresini düzenle</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>Girilen "%1" adresi geçerli bir PIVX adresi değil.</translation>
+        <source>The entered address "%1" is not a valid Mobolith address.</source>
+        <translation>Girilen "%1" adresi geçerli bir Mobolith adresi değil.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1066,16 +1066,16 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>versiyon</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>Mobolith Core</source>
+        <translation>Mobolith Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About PIVX Core</source>
-        <translation>PIVX Core Hakkında </translation>
+        <source>About Mobolith Core</source>
+        <translation>Mobolith Core Hakkında </translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1125,16 +1125,16 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>Hoşgeldiniz</translation>
     </message>
     <message>
-        <source>Welcome to PIVX Core.</source>
-        <translation>PIVX Core'a hoşgeldiniz.</translation>
+        <source>Welcome to Mobolith Core.</source>
+        <translation>Mobolith Core'a hoşgeldiniz.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PIVX Core will store its data.</source>
-        <translation>Program ilk başlatıldığında PIVX Core'un verilerini nerede saklayacağını seçebilirsiniz.</translation>
+        <source>As this is the first time the program is launched, you can choose where Mobolith Core will store its data.</source>
+        <translation>Program ilk başlatıldığında Mobolith Core'un verilerini nerede saklayacağını seçebilirsiniz.</translation>
     </message>
     <message>
-        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX Core, PIVX blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecektir. Ayrıca cüzdanınız da bu dizinde saklanır.</translation>
+        <source>Mobolith Core will download and store a copy of the Mobolith block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Mobolith Core, Mobolith blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecektir. Ayrıca cüzdanınız da bu dizinde saklanır.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1153,8 +1153,8 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>TAMAM</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>Mobolith Core</source>
+        <translation>Mobolith Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1253,8 +1253,8 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>Bu miktarda koininizin olduğundan emin olunuz.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 PIV will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;10.000 PIV'lik bir transfer &lt;/p&gt;&lt;p&gt;yeni ve boş bir adrese yapılacaktır.&lt;/p&gt;&lt;p&gt;Adres Masternode'unuz ismi ile etiketlenecektir.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 MBT will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;10.000 MBT'lik bir transfer &lt;/p&gt;&lt;p&gt;yeni ve boş bir adrese yapılacaktır.&lt;/p&gt;&lt;p&gt;Adres Masternode'unuz ismi ile etiketlenecektir.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1351,7 +1351,7 @@ and vote on the treasury system receiving a periodic reward.</source>
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the pivx.conf file
+You will only have to paste the data in the mbt.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
@@ -1359,7 +1359,7 @@ this controller wallet (select the Masternode in the list and press "start").
 panoya almak üzeresiniz.
 
 
-Bilgiyi uzak sunucunuzdaki pivx.conf dosyasına yapıştırmanız ve
+Bilgiyi uzak sunucunuzdaki mbt.conf dosyasına yapıştırmanız ve
  başlatmanız gerekecektir, ondan sonra bu kontrol cüzdanını kullanan
 Masternodu başlatın (Listeden Masternodu seçip "başlat" tuşuna basın).
 </translation>
@@ -1487,8 +1487,8 @@ Emin misiniz?</translation>
         <translation>Ayrıştırılmış bilgi çok büyük</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "pivx" prefix</source>
-        <translation>Geçersiz URI, "pivx" ön adıyla başlamıyor</translation>
+        <source>Invalid URI, not starting with "mbt" prefix</source>
+        <translation>Geçersiz URI, "mbt" ön adıyla başlamıyor</translation>
     </message>
 </context>
 <context>
@@ -1533,8 +1533,8 @@ Emin misiniz?</translation>
         <translation>Doğrulanmamış değişikliğin harcamasını devre dışı bırakırsanız, bir işlemdeki değişiklik&lt;br/&gt;Bu işlem en az bir onay alıncaya kadar kullanılamaz.&lt;br/&gt;Bu aynı zamanda bakiyenizin nasıl hesaplandığını etkiler.</translation>
     </message>
     <message>
-        <source>Automatically open the PIVX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönelticideki PIVX istemci bağlantı noktasını otomatik olarak açın. Bu, yalnızca yönlendiriciniz UPnP'yi destekliyorsa ve etkinleştirilmişse çalışır.</translation>
+        <source>Automatically open the Mobolith client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönelticideki Mobolith istemci bağlantı noktasını otomatik olarak açın. Bu, yalnızca yönlendiriciniz UPnP'yi destekliyorsa ve etkinleştirilmişse çalışır.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1553,12 +1553,12 @@ Emin misiniz?</translation>
         <translation>Uzman</translation>
     </message>
     <message>
-        <source>Automatically start PIVX after logging in to the system.</source>
-        <translation>Sisteme giriş yaptıktan sonra otomatik olarak PIVX'i başlatın.</translation>
+        <source>Automatically start Mobolith after logging in to the system.</source>
+        <translation>Sisteme giriş yaptıktan sonra otomatik olarak Mobolith'i başlatın.</translation>
     </message>
     <message>
-        <source>&amp;Start PIVX on system login</source>
-        <translation>&amp; Sistem oturum açma işleminde PIVX'i başlat</translation>
+        <source>&amp;Start Mobolith on system login</source>
+        <translation>&amp; Sistem oturum açma işleminde Mobolith'i başlat</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1585,8 +1585,8 @@ Emin misiniz?</translation>
         <translation>&amp;Ağ</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
-        <translation>Kullanıcı arabirimi dili burada ayarlanabilir. Bu ayar, PIVX yeniden başlatıldıktan sonra geçerli olur.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Mobolith.</source>
+        <translation>Kullanıcı arabirimi dili burada ayarlanabilir. Bu ayar, Mobolith yeniden başlatıldıktan sonra geçerli olur.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1599,44 +1599,44 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>PIV birimlerinin zPIV'e otomatik basımını ektinleştir</translation>
+        <source>Enable automatic minting of MBT units to zMBT</source>
+        <translation>MBT birimlerinin zMBT'e otomatik basımını ektinleştir</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>zPIV Otomatik basımı etkinleştir</translation>
+        <source>Enable zMBT Automint</source>
+        <translation>zMBT Otomatik basımı etkinleştir</translation>
     </message>
     <message>
-        <source>Enable automatic zPIV minting from specific addresses</source>
-        <translation>Belirli bir adresten otomatik zPIV minting yapılmasını etkinleştir</translation>
+        <source>Enable automatic zMBT minting from specific addresses</source>
+        <translation>Belirli bir adresten otomatik zMBT minting yapılmasını etkinleştir</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Automint adreslerini etkinleştir</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Zerocoin Protokolü üzerinden otomatik olarak zPIV'ye dönüştürülen gelen PIV yüzdesi (dakika: 10%)</translation>
+        <source>Percentage of incoming MBT which get automatically converted to zMBT via Zerocoin Protocol (min: 10%)</source>
+        <translation>Zerocoin Protokolü üzerinden otomatik olarak zMBT'ye dönüştürülen gelen MBT yüzdesi (dakika: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Otomatikleştirilmiş zPIV yüzdesi</translation>
+        <source>Percentage of autominted zMBT</source>
+        <translation>Otomatikleştirilmiş zMBT yüzdesi</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Bu bölen için yeterli PIV bulunana kadar Zerocoin'e otomatik dönüştürmede kalın</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough MBT for this denomination is available</source>
+        <translation>Bu bölen için yeterli MBT bulunana kadar Zerocoin'e otomatik dönüştürmede kalın</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Tercih edilen Automint zPIV Nominal değeri</translation>
+        <source>Preferred Automint zMBT Denomination</source>
+        <translation>Tercih edilen Automint zMBT Nominal değeri</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Stake bölme eşiği</translation>
     </message>
     <message>
-        <source>Connect to the PIVX network through a SOCKS5 proxy.</source>
-        <translation>Bir SOCKS5 proxy vasıtasıyla PIVX ağına bağlanın.</translation>
+        <source>Connect to the Mobolith network through a SOCKS5 proxy.</source>
+        <translation>Bir SOCKS5 proxy vasıtasıyla Mobolith ağına bağlanın.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1782,8 +1782,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
 <context>
     <name>PIVXGUI</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>Mobolith Core</source>
+        <translation>Mobolith Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1810,8 +1810,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Uygulamayı sonlandır</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>PIVX Core istemci</translation>
+        <source>Mobolith Core client</source>
+        <translation>Mobolith Core istemci</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1877,12 +1877,12 @@ Adres: %4
         <translation>Geçersiz ödeme adresi %1</translation>
     </message>
     <message>
-        <source>Cannot start pivx: click-to-pay handler</source>
-        <translation>Pivx başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
+        <source>Cannot start mbt: click-to-pay handler</source>
+        <translation>mbt başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
-        <translation>URI ayrıştırılamaz! Bunun nedeni, geçersiz bir PIVX adresi veya hatalı biçimlendirilmiş URI parametrelerinden kaynaklanabilir.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Mobolith address or malformed URI parameters.</source>
+        <translation>URI ayrıştırılamaz! Bunun nedeni, geçersiz bir Mobolith adresi veya hatalı biçimlendirilmiş URI parametrelerinden kaynaklanabilir.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2007,12 +2007,12 @@ Adres: %4
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>A fatal error occurred. PIVX can no longer continue safely and will quit.</source>
-        <translation>Onarılamaz bir hata oluştu. PIVX güvenli bir şekilde çalışamaz, kapanacaktır.</translation>
+        <source>A fatal error occurred. Mobolith can no longer continue safely and will quit.</source>
+        <translation>Onarılamaz bir hata oluştu. Mobolith güvenli bir şekilde çalışamaz, kapanacaktır.</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>Mobolith Core</source>
+        <translation>Mobolith Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2031,8 +2031,8 @@ Adres: %4
         <translation>Masternode konfigürasyon dosyası okuma hatası: %1</translation>
     </message>
     <message>
-        <source>PIVX Core didn't yet exit safely...</source>
-        <translation>PIVX Core henüz güvenle kapanmadı..</translation>
+        <source>Mobolith Core didn't yet exit safely...</source>
+        <translation>Mobolith Core henüz güvenle kapanmadı..</translation>
     </message>
     <message>
         <source>Cold Staking</source>
@@ -2162,8 +2162,8 @@ Adres: %4
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Geçerli veri dizininden PIVX hata ayıklama günlük dosyasını açın. Bu, büyük günlük dosyaları için birkaç saniye sürebilir.</translation>
+        <source>Open the Mobolith debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Geçerli veri dizininden Mobolith hata ayıklama günlük dosyasını açın. Bu, büyük günlük dosyaları için birkaç saniye sürebilir.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2306,8 +2306,8 @@ Adres: %4
         <translation>Özel Yedekleme Yolu:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>Özel zPIV Yedekleme Yolu:</translation>
+        <source>Custom zMBT Backup Path:</source>
+        <translation>Özel zMBT Yedekleme Yolu:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -2386,8 +2386,8 @@ Adres: %4
         <translation>Dışa:</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>PIVX RPC konsola hoşgeldiniz</translation>
+        <source>Welcome to the Mobolith RPC console.</source>
+        <translation>Mobolith RPC konsola hoşgeldiniz</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -2626,8 +2626,8 @@ Adres: %4
         <translation>Miktar</translation>
     </message>
     <message>
-        <source>PIV</source>
-        <translation>PIV</translation>
+        <source>MBT</source>
+        <translation>MBT</translation>
     </message>
     <message>
         <source>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
@@ -2689,8 +2689,8 @@ Adres: %4
         <translation>Özel fark adresi</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" PIVX address</source>
-        <translation>Giriş ve çıkış değerleri arasındaki kalan tutar "fark" PIV adresine gider</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" Mobolith address</source>
+        <translation>Giriş ve çıkış değerleri arasındaki kalan tutar "fark" MBT adresine gider</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -3061,8 +3061,8 @@ Verify that you have installed a predetermined text editor.</source>
 Önceden belirlenmiş bir text editleme programınız olup olmadığını kontrol ediniz.</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>PIVX RPC konsola hoşgeldiniz</translation>
+        <source>Welcome to the Mobolith RPC console.</source>
+        <translation>Mobolith RPC konsola hoşgeldiniz</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3182,46 +3182,46 @@ Verify that you have installed a predetermined text editor.</source>
         <translation>Form</translation>
     </message>
     <message>
-        <source>1) What is PIVX?</source>
-        <translation>1)PIVX nedir?</translation>
+        <source>1) What is Mobolith?</source>
+        <translation>1)Mobolith nedir?</translation>
     </message>
     <message>
-        <source>2) Why are my PIV unspendable?</source>
-        <translation>2) PIV'lerim neden harcanabilir değil?</translation>
+        <source>2) Why are my MBT unspendable?</source>
+        <translation>2) MBT'lerim neden harcanabilir değil?</translation>
     </message>
     <message>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <source>What is PIVX?</source>
-        <translation>PIVX Nedir?</translation>
+        <source>What is Mobolith?</source>
+        <translation>Mobolith Nedir?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           PIVX is a form of digital online money using blockchain technology
+                           Mobolith is a form of digital online money using blockchain technology
                            that can be easily transferred globally, instantly, and with near
-                           zero fees.  PIVX incorporates market leading security &amp;
+                           zero fees.  Mobolith incorporates market leading security &amp;
                            privacy and is also the first PoS (Proof of Stake) Cryptocurrency
-                           to implement ZeroCoin(zPIV) and Zerocoin staking.
+                           to implement ZeroCoin(zMBT) and Zerocoin staking.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           PIVX utilizes a Proof of Stake (PoS) consensus system algorithm,
-                           allowing all owners of PIVX to participate in earning block rewards
+                           Mobolith utilizes a Proof of Stake (PoS) consensus system algorithm,
+                           allowing all owners of Mobolith to participate in earning block rewards
                            while securing the network with full node wallets, as well as to
                            run Masternodes to create and vote on proposals.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           PIVX blockchain teknolojisini kullanan bir dijital online para birimidir
+                           Mobolith blockchain teknolojisini kullanan bir dijital online para birimidir
                            global olarak anında ve sıfıra yakın ücretlerle transfer edilebilir
-                           PIVX sektördeki en ileri güvenlik ve gizliliğe sahip olmakla birlikte
-                          Zerocoin (zPIV) ve Zerocoin staking özelliklerini
+                           Mobolith sektördeki en ileri güvenlik ve gizliliğe sahip olmakla birlikte
+                          Zerocoin (zMBT) ve Zerocoin staking özelliklerini
                           uygulayan ilk PoS (Proof of Stake) Kriptoparadır.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           PIVX bir  Proof of Stake (PoS) konsensüs algoritma sistemi kullanmaktadır,
-bu sayede PIVX sahipleri blok ödülü kazanımına katılabilmektedir
+                           Mobolith bir  Proof of Stake (PoS) konsensüs algoritma sistemi kullanmaktadır,
+bu sayede Mobolith sahipleri blok ödülü kazanımına katılabilmektedir
                            ağı diğer tam düğüm sahibi cüzdanlarla birlikte güvenli hale getirirler
                            ayrıca Masternode oluşturarak tekliflere oy verirler.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -3232,25 +3232,25 @@ bu sayede PIVX sahipleri blok ödülü kazanımına katılabilmektedir
         <translation>2</translation>
     </message>
     <message>
-        <source>Why are my PIV unspendable?</source>
-        <translation>PIV'lerim neden harcanabilir değil?</translation>
+        <source>Why are my MBT unspendable?</source>
+        <translation>MBT'lerim neden harcanabilir değil?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Newly received PIVX requires 6 confirmations on the network
+                           Newly received Mobolith requires 6 confirmations on the network
                            to become eligible for spending which can take ~6 minutes.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Your PIVX wallet also needs to be completely synchronized
+                           Your Mobolith wallet also needs to be completely synchronized
                            to see and spend balances on the network.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Yeni alınmış PIVX'lerin harcanabilr hale gelmesi için ağdan 6 onay
+                           Yeni alınmış Mobolith'lerin harcanabilr hale gelmesi için ağdan 6 onay
                            alması gerekmektedir, bu işlem yaklaşık olarak 6 dakika sürer.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           PIVX cüzdanınızın ağdaki bakiyesini görebilmesi ve harcayabilmesi
+                           Mobolith cüzdanınızın ağdaki bakiyesini görebilmesi ve harcayabilmesi
                            için tamamen senkronize olması gerekmektedir.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
@@ -3278,8 +3278,8 @@ bu sayede PIVX sahipleri blok ödülü kazanımına katılabilmektedir
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A masternode is a computer running a full node PIVX core wallet with a
-                           requirement of 10,000 PIV secured collateral to provide extra services
+                           A masternode is a computer running a full node Mobolith core wallet with a
+                           requirement of 10,000 MBT secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
                            &lt;/p&gt;&lt;p align="justify"&gt;
@@ -3301,17 +3301,17 @@ bu sayede PIVX sahipleri blok ödülü kazanımına katılabilmektedir
                            Masternode Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Participate in PIVX Governance&lt;/li&gt;
+                           &lt;li&gt;Participate in Mobolith Governance&lt;/li&gt;
                            &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
-                           &lt;li&gt;Help secure the PIVX network&lt;/li&gt;
+                           &lt;li&gt;Help secure the Mobolith network&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
                            Requirements:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 PIV per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 MBT per single Masternode instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
                            &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
@@ -3320,7 +3320,7 @@ bu sayede PIVX sahipleri blok ödülü kazanımına katılabilmektedir
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Tam düğüm PIVX core cüzdanını çalıştıran, gereken 10,000 PIV
+                           Tam düğüm Mobolith core cüzdanını çalıştıran, gereken 10,000 MBT
                            teminat bakiyesini barındırarak ağa ekstra hizmetler sunan ve
                            karşılığında da her blok ödülünden düzenli olarak pay alan bir
                            bilgisayardır.Bu hizmetler aşağıdaki gibidir:
@@ -3343,17 +3343,17 @@ işletim maliyetleri sonrası pasif bir gelir sunar.
                            Masternode Avantajları:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;PIVX yönetimine katılın&lt;/li&gt;
+                           &lt;li&gt;Mobolith yönetimine katılın&lt;/li&gt;
                            &lt;li&gt;Masternode Ödülleri kazanın&lt;/li&gt;
                            &lt;li&gt;İlerde satabileceğiniz bir varlık opsiyonu&lt;/li&gt;
-                           &lt;li&gt;PIVX ağını güvenliğine destek olun&lt;/li&gt;
+                           &lt;li&gt;Mobolith ağını güvenliğine destek olun&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
                            Gereksinimler:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Her Masternod için ayrı 10,000 PIV
+                           &lt;li&gt;Her Masternod için ayrı 10,000 MBT
                            &lt;li&gt;Core cüzdan içinde saklanmalıdır.&lt;/li&gt;
                            &lt;li&gt;Atanmış IP adresi gerekmektedir. &lt;/li&gt;
                            &lt;li&gt;Masternode cüzdanının online olması&lt;/li&gt;
@@ -3433,8 +3433,8 @@ işletim maliyetleri sonrası pasif bir gelir sunar.
         <translation>Yedek klasörü açılamadı</translation>
     </message>
     <message>
-        <source>Unable to open pivx.conf with default application</source>
-        <translation>pivx.conf dosyası uygulama tarafından açılamadı</translation>
+        <source>Unable to open mbt.conf with default application</source>
+        <translation>mbt.conf dosyası uygulama tarafından açılamadı</translation>
     </message>
     <message>
         <source>In:</source>
@@ -3484,8 +3484,8 @@ işletim maliyetleri sonrası pasif bir gelir sunar.
         <translation>Komut onay parça sayısı</translation>
     </message>
     <message>
-        <source>Start PIVX on system login</source>
-        <translation>Sistem açılışında PIVX'i başlat</translation>
+        <source>Start Mobolith on system login</source>
+        <translation>Sistem açılışında Mobolith'i başlat</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -3564,8 +3564,8 @@ Emin misiniz?
         <translation>CheckBox</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVX addresses after it matures.</source>
-        <translation>ÇokluGönder olgunlaşmış masternode ve staking ödüllerinizin 100% 'üne kadarını diğer PIVX adreslerine otomatik olarak göndermenizi sağlar. </translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Mobolith addresses after it matures.</source>
+        <translation>ÇokluGönder olgunlaşmış masternode ve staking ödüllerinizin 100% 'üne kadarını diğer Mobolith adreslerine otomatik olarak göndermenizi sağlar. </translation>
     </message>
     <message>
         <source>Active</source>
@@ -3944,8 +3944,8 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
         <translation>SSS</translation>
     </message>
     <message>
-        <source>About PIVX</source>
-        <translation>PIVX Hakkında</translation>
+        <source>About Mobolith</source>
+        <translation>Mobolith Hakkında</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4011,8 +4011,8 @@ Emin misiniz?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>PIVX Core is shutting down...</source>
-        <translation>PIVX Core kapanıyor ...</translation>
+        <source>Mobolith Core is shutting down...</source>
+        <translation>Mobolith Core kapanıyor ...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4041,8 +4041,8 @@ Emin misiniz?
         <translation>Yükleniyor...</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>Mobolith Core</source>
+        <translation>Mobolith Core</translation>
     </message>
 </context>
 <context>
@@ -4393,25 +4393,25 @@ Emin misiniz?
     </message>
     <message>
         <source>Welcome to
-PIVX Core Wallet</source>
-        <translation>PIVX Core Cüzdanı'na
+Mobolith Core Wallet</source>
+        <translation>Mobolith Core Cüzdanı'na
 Hoşgeldiniz</translation>
     </message>
     <message>
-        <source>PIVX is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>PIVX Proof of Stake tabanlı dünyadaki en yenilikçi blockchain teknolojisidir. Yüksek tecrübeye sahip yazılımcılar ve kriptograflardan oluşan bir ekip tarafından geliştirilmiştir.</translation>
+        <source>Mobolith is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>Mobolith Proof of Stake tabanlı dünyadaki en yenilikçi blockchain teknolojisidir. Yüksek tecrübeye sahip yazılımcılar ve kriptograflardan oluşan bir ekip tarafından geliştirilmiştir.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - PIVX believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Manifestomuzda yazdığı gibi: Gizlilik, pazarlık yapılamayacak temel bir insan hakkıdır; kullanıcılarına istedikleri zaman ve istedikleri kişiyle verilerini paylaşma özgürlüğü verir - PIVX özerkliğe inanır.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - Mobolith believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Manifestomuzda yazdığı gibi: Gizlilik, pazarlık yapılamayacak temel bir insan hakkıdır; kullanıcılarına istedikleri zaman ve istedikleri kişiyle verilerini paylaşma özgürlüğü verir - Mobolith özerkliğe inanır.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is PIVX's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Masternode ağı dağıtık yönetim ve hazine yönetimini sağlayan PIVX blockchaini üzerindeki ikinci katmandır.</translation>
+        <source>The masternode network is Mobolith's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Masternode ağı dağıtık yönetim ve hazine yönetimini sağlayan Mobolith blockchaini üzerindeki ikinci katmandır.</translation>
     </message>
     <message>
-        <source>How PIVX respects your privacy?</source>
-        <translation>PIVX gizliliğinize nasıl saygı duyar?</translation>
+        <source>How Mobolith respects your privacy?</source>
+        <translation>Mobolith gizliliğinize nasıl saygı duyar?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -4445,8 +4445,8 @@ Hoşgeldiniz</translation>
         <translation>JSON-RPC bağlantılarını dinlemek için verilen adrese bağlanın. IPv6 için [host]: port gösterimini kullanın. Bu seçenek birden çok kez belirtilebilir (varsayılan: tüm arabirimlere bağlanır)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. PIVX Core is probably already running.</source>
-        <translation>Veri dizini %s üzerinde bir kilit elde edemiyor. PIVX Core muhtemelen zaten çalışıyor.</translation>
+        <source>Cannot obtain a lock on data directory %s. Mobolith Core is probably already running.</source>
+        <translation>Veri dizini %s üzerinde bir kilit elde edemiyor. Mobolith Core muhtemelen zaten çalışıyor.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4605,8 +4605,8 @@ Hoşgeldiniz</translation>
         <translation>Ağ versiyon dizisi toplam uzunluğu(%i) maksimum uzunluğu aşıyor(%i). Yorumların büyüklüğünü veya sayısını azaltın.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. PIVX Core is probably already running.</source>
-        <translation>Bu bilgisayarda %s 'e bağlanılamıyor. PIVX Core muhtemelen zaten çalışıyor.</translation>
+        <source>Unable to bind to %s on this computer. Mobolith Core is probably already running.</source>
+        <translation>Bu bilgisayarda %s 'e bağlanılamıyor. Mobolith Core muhtemelen zaten çalışıyor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4621,8 +4621,8 @@ Hoşgeldiniz</translation>
         <translation>Uyarı: paytxfee değeri çok yüksek ayarlanmış! Bu para gönderirken ödeyeceğiniz transfer ücretidir.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PIVX Core will not work properly.</source>
-        <translation>Uyarı: Bilgisayarınızın tarih ve saat ayarlarının doğruluğunu kontrol edin! Saatiniz yanlış ise PIVX Core düzgün çalışmayacaktır. </translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Mobolith Core will not work properly.</source>
+        <translation>Uyarı: Bilgisayarınızın tarih ve saat ayarlarının doğruluğunu kontrol edin! Saatiniz yanlış ise Mobolith Core düzgün çalışmayacaktır. </translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4837,8 +4837,8 @@ Hoşgeldiniz</translation>
         <translation>Bilgi</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. PIVX Core is shutting down.</source>
-        <translation>Sağlama kontrolü başlatımı başarısız. PIVX Core kapatılıyor.</translation>
+        <source>Initialization sanity check failed. Mobolith Core is shutting down.</source>
+        <translation>Sağlama kontrolü başlatımı başarısız. Mobolith Core kapatılıyor.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -4869,8 +4869,8 @@ Hoşgeldiniz</translation>
         <translation>Whitelist içinde belirtilen geçersiz netmask: '%s'</translation>
     </message>
     <message>
-        <source>Recalculating PIV supply...</source>
-        <translation>PIV tedariği tekrar hesaplanıyor...</translation>
+        <source>Recalculating MBT supply...</source>
+        <translation>MBT tedariği tekrar hesaplanıyor...</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -4893,8 +4893,8 @@ Hoşgeldiniz</translation>
         <translation>Bu ön-sürümdeki bir test programıdır - riski kabullenerek kullanınız - staking ve ticaret uygulamalarında kullanmayın.</translation>
     </message>
     <message>
-        <source>Disable all PIVX specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>PIVX spesifik tüm fonksiyonaliteyi devre dışı bırak (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, varsayılan: %u)</translation>
+        <source>Disable all Mobolith specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Mobolith spesifik tüm fonksiyonaliteyi devre dışı bırak (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, varsayılan: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5289,8 +5289,8 @@ Hoşgeldiniz</translation>
         <translation>Sporklar eşzamanlanıyor..</translation>
     </message>
     <message>
-        <source>Syncing zPIV wallet...</source>
-        <translation>zPIV cüzdanı eşzamanlanıyor..</translation>
+        <source>Syncing zMBT wallet...</source>
+        <translation>zMBT cüzdanı eşzamanlanıyor..</translation>
     </message>
     <message>
         <source>This help message</source>
@@ -5385,8 +5385,8 @@ Hoşgeldiniz</translation>
         <translation>JSON-RPC bağlantısı için kullanıcı adı</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zPIV</source>
-        <translation>Aşağıdaki değer zPIV'in mümkün olan en küçük bölüm değeridir (=1)</translation>
+        <source>Value is below the smallest available denomination (= 1) of zMBT</source>
+        <translation>Aşağıdaki değer zMBT'in mümkün olan en küçük bölüm değeridir (=1)</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -5401,8 +5401,8 @@ Hoşgeldiniz</translation>
         <translation>Cüzdan %s bilgi dizini %s dışında bulunuyor</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart PIVX Core to complete</source>
-        <translation>Cüzdanın tekrar yazılması gerekiyor: tamamlamak için PIVX Core uygulamasını tekrar başlatın.</translation>
+        <source>Wallet needed to be rewritten: restart Mobolith Core to complete</source>
+        <translation>Cüzdanın tekrar yazılması gerekiyor: tamamlamak için Mobolith Core uygulamasını tekrar başlatın.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

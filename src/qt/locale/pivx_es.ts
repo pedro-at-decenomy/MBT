@@ -122,12 +122,12 @@
         <translation>Direcciones de recepción</translation>
     </message>
     <message>
-        <source>These are your MBT addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son tus direcciones MBT para realizar pagos. Verifica siempre la cantidad y la dirección de recepción antes de enviar monedas.</translation>
+        <source>These are your Mobolith addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son tus direcciones Mobolith para realizar pagos. Verifica siempre la cantidad y la dirección de recepción antes de enviar monedas.</translation>
     </message>
     <message>
-        <source>These are your MBT addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son sus direcciones MBT para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
+        <source>These are your Mobolith addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son sus direcciones Mobolith para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -364,8 +364,8 @@ para staking</translation>
         <translation>CANCELAR</translation>
     </message>
     <message>
-        <source>MBT will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MBTs from being stolen by malware infecting your computer.</source>
-        <translation>MBT se cerrará para finalizar el proceso de encriptación. Recuerda que encriptar tu wallet no garantiza que sus MBTs no sean robados mediante malware de tu computadora.</translation>
+        <source>Mobolith will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MBTs from being stolen by malware infecting your computer.</source>
+        <translation>Mobolith se cerrará para finalizar el proceso de encriptación. Recuerda que encriptar tu wallet no garantiza que sus MBTs no sean robados mediante malware de tu computadora.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -1111,8 +1111,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>Editar dirección de envío</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid MBT address.</source>
-        <translation>La dirección introducida "%1" no es una dirección MBT válida.</translation>
+        <source>The entered address "%1" is not a valid Mobolith address.</source>
+        <translation>La dirección introducida "%1" no es una dirección Mobolith válida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1235,8 +1235,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará Mobolith Core sus datos.</translation>
     </message>
     <message>
-        <source>Mobolith Core will download and store a copy of the MBT block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Mobolith Core descargará y guardará una copia de la cadena de bloques MBT. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. La wallet también se guardará en esta carpeta.</translation>
+        <source>Mobolith Core will download and store a copy of the Mobolith block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Mobolith Core descargará y guardará una copia de la cadena de bloques Mobolith. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. La wallet también se guardará en esta carpeta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1363,8 +1363,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>Crear Nuevo Controlador de Masternode</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a MBT Masternode you must dedicate 10,000 MBT (the unit of MBT) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Para crear un Masternode de MBT debes desponer 10.000 MBT (la unidad de MBT) a la red (sin embargo, estas monedas siguen siendo tuyas y nunca saldrán de tu posesión). Puedes desactivar el nodo y desbloquear las monedas en cualquier momento.</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a Mobolith Masternode you must dedicate 10,000 MBT (the unit of Mobolith) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>Para crear un Masternode de Mobolith debes desponer 10.000 MBT (la unidad de Mobolith) a la red (sin embargo, estas monedas siguen siendo tuyas y nunca saldrán de tu posesión). Puedes desactivar el nodo y desbloquear las monedas en cualquier momento.</translation>
     </message>
     <message>
         <source>Set Masternode Name</source>
@@ -1589,14 +1589,14 @@ Espere unos minutos más (las garantías de masternode requieren %1 confirmacion
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the mbt.conf file
+You will only have to paste the data in the mtb.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
         <translation>Estás a punto de exportar los datos necesarios para ejecutar un Masternode de un servidor remoto a tu portapapeles.
 
 
-Sólo tendrás que pegar los datos en el archivo mbt.conf de tu servidor remoto e iniciarlo, luego inicia el Masternode usando esta wallet de controladores (selecciona el Masternode en la lista y presione "start").
+Sólo tendrás que pegar los datos en el archivo mtb.conf de tu servidor remoto e iniciarlo, luego inicia el Masternode usando esta wallet de controladores (selecciona el Masternode en la lista y presione "start").
 </translation>
     </message>
     <message>
@@ -1783,8 +1783,8 @@ EN FRIO</translation>
         <translation>Los datos analizados son demasiado grandes</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "mbt" prefix</source>
-        <translation>URI inválido, no empezar con el prefijo "mbt"</translation>
+        <source>Invalid URI, not starting with "mtb" prefix</source>
+        <translation>URI inválido, no empezar con el prefijo "mtb"</translation>
     </message>
 </context>
 <context>
@@ -1829,8 +1829,8 @@ EN FRIO</translation>
         <translation>Si deselecciona el gasto de cambio no confirmado, las entradas de una transacción&lt;br/&gt;no podrán ser usadas hasta que esa transacción tenga al menos una confirmación.&lt;br/&gt;Esto también afecta a cómo se calcula su balance actual.</translation>
     </message>
     <message>
-        <source>Automatically open the MBT client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente MBT en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
+        <source>Automatically open the Mobolith client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Mobolith en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1849,12 +1849,12 @@ EN FRIO</translation>
         <translation>Experto</translation>
     </message>
     <message>
-        <source>Automatically start MBT after logging in to the system.</source>
-        <translation>Arrancar MBT automáticamente después de identificarse en el sistema.</translation>
+        <source>Automatically start Mobolith after logging in to the system.</source>
+        <translation>Arrancar Mobolith automáticamente después de identificarse en el sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start MBT on system login</source>
-        <translation>&amp;Arrancar MBT al inicio del sistema</translation>
+        <source>&amp;Start Mobolith on system login</source>
+        <translation>&amp;Arrancar Mobolith al inicio del sistema</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1881,8 +1881,8 @@ EN FRIO</translation>
         <translation>&amp;Red</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting MBT.</source>
-        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar MBT.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Mobolith.</source>
+        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar Mobolith.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1931,8 +1931,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Límite de división de los stake:</translation>
     </message>
     <message>
-        <source>Connect to the MBT network through a SOCKS5 proxy.</source>
-        <translation>Conectar a la red MBT mediante un proxy SOCKS5.</translation>
+        <source>Connect to the Mobolith network through a SOCKS5 proxy.</source>
+        <translation>Conectar a la red Mobolith mediante un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2173,12 +2173,12 @@ Dirección: %4
         <translation>Dirección de pago inválida %1</translation>
     </message>
     <message>
-        <source>Cannot start mbt: click-to-pay handler</source>
-        <translation>No se puede iniciar mbt: módulo click-to-pay</translation>
+        <source>Cannot start mtb: click-to-pay handler</source>
+        <translation>No se puede iniciar mtb: módulo click-to-pay</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid MBT address or malformed URI parameters.</source>
-        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección MBT inválida o parámetros del identificador malformados.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Mobolith address or malformed URI parameters.</source>
+        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección Mobolith inválida o parámetros del identificador malformados.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2267,8 +2267,8 @@ Dirección: %4
         <translation>Cantidad</translation>
     </message>
     <message>
-        <source>Enter MBT address (e.g. %1)</source>
-        <translation>Introduzca una dirección MBT (p.e. %1)</translation>
+        <source>Enter Mobolith address (e.g. %1)</source>
+        <translation>Introduzca una dirección Mobolith (p.e. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2311,8 +2311,8 @@ Dirección: %4
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>A fatal error occurred. MBT can no longer continue safely and will quit.</source>
-        <translation>Se produjo un error fatal. MBT ya no puede continuar de forma segura y dejará de funcionar.   </translation>
+        <source>A fatal error occurred. Mobolith can no longer continue safely and will quit.</source>
+        <translation>Se produjo un error fatal. Mobolith ya no puede continuar de forma segura y dejará de funcionar.   </translation>
     </message>
     <message>
         <source>Mobolith Core</source>
@@ -2336,7 +2336,7 @@ Dirección: %4
     </message>
     <message>
         <source>Mobolith Core didn't yet exit safely...</source>
-        <translation>El núcleo MBT aún no ha salido de forma segura...</translation>
+        <translation>El núcleo Mobolith aún no ha salido de forma segura...</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -2574,8 +2574,8 @@ Dirección: %4
         <translation>Blockchain</translation>
     </message>
     <message>
-        <source>Open the MBT debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir el fichero de depuración MBT en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
+        <source>Open the Mobolith debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir el fichero de depuración Mobolith en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2798,8 +2798,8 @@ Dirección: %4
         <translation>Fuera:</translation>
     </message>
     <message>
-        <source>Welcome to the MBT RPC console.</source>
-        <translation>Bienvenido a la consola RPC de MBT.</translation>
+        <source>Welcome to the Mobolith RPC console.</source>
+        <translation>Bienvenido a la consola RPC de Mobolith.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3074,8 +3074,8 @@ Dirección: %4
         <translation>MBT</translation>
     </message>
     <message>
-        <source>Instead of sharing only a MBT address, you can create a payment request, bundling up more information</source>
-        <translation>En lugar de compartir solo una dirección MBT, puede crear una solicitud de pago, agrupando más información</translation>
+        <source>Instead of sharing only a Mobolith address, you can create a payment request, bundling up more information</source>
+        <translation>En lugar de compartir solo una dirección Mobolith, puede crear una solicitud de pago, agrupando más información</translation>
     </message>
     <message>
         <source>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
@@ -3165,8 +3165,8 @@ Dirección: %4
         <translation>Cambio de dirección personalizado</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" MBT address</source>
-        <translation>El resto del valor resultante de las entradas menos el valor de las salidas va al "cambio" de dirección de MBT</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" Mobolith address</source>
+        <translation>El resto del valor resultante de las entradas menos el valor de las salidas va al "cambio" de dirección de Mobolith</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -3479,9 +3479,9 @@ Recuerde anotarlos y almacenarlos de forma segura, de lo contrario, podría perd
         <translation>Herramienta BIP38</translation>
     </message>
     <message>
-        <source>Encrypt your MBT addresses (key pair actually) using BIP38 encryption.
+        <source>Encrypt your Mobolith addresses (key pair actually) using BIP38 encryption.
 Using this mechanism you can share your keys without middle-man risk, only need to store your passphrase safely</source>
-        <translation>Cifre sus direcciones MBT (par de claves en realidad) utilizando cifrado BIP38.
+        <translation>Cifre sus direcciones Mobolith (par de claves en realidad) utilizando cifrado BIP38.
 Con este mecanismo puede compartir sus claves sin riesgo de intermediarios, solo necesita almacenar su contraseña de forma segura</translation>
     </message>
     <message>
@@ -3517,8 +3517,8 @@ Con este mecanismo puede compartir sus claves sin riesgo de intermediarios, solo
         <translation>CLAVE DESCIFRADA</translation>
     </message>
     <message>
-        <source>MBT address</source>
-        <translation>Dirección MBT</translation>
+        <source>Mobolith address</source>
+        <translation>Dirección Mobolith</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3650,8 +3650,8 @@ Verify that you have installed a predetermined text editor.</source>
 Verifica que tengas instalado un editor de texto predeterminado.</translation>
     </message>
     <message>
-        <source>Welcome to the MBT RPC console.</source>
-        <translation>Bienvenido a la consola RPC de MBT.</translation>
+        <source>Welcome to the Mobolith RPC console.</source>
+        <translation>Bienvenido a la consola RPC de Mobolith.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3835,8 +3835,8 @@ Ha habido un error al tratar de guardar la libreta de direcciones en %1. Por fav
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>1) What is MBT?</source>
-        <translation>1) ¿Qué es MBT?</translation>
+        <source>1) What is Mobolith?</source>
+        <translation>1) ¿Qué es Mobolith?</translation>
     </message>
     <message>
         <source>2) Why are my MBT unspendable?</source>
@@ -3851,29 +3851,29 @@ Ha habido un error al tratar de guardar la libreta de direcciones en %1. Por fav
         <translation>1</translation>
     </message>
     <message>
-        <source>What is MBT?</source>
-        <translation>¿Qué es MBT?</translation>
+        <source>What is Mobolith?</source>
+        <translation>¿Qué es Mobolith?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           MBT is a form of digital online money using blockchain technology
+                           Mobolith is a form of digital online money using blockchain technology
                            that can be easily transferred globally, instantly, and with near
-                           zero fees.  MBT incorporates market leading security &amp;
+                           zero fees.  Mobolith incorporates market leading security &amp;
                            privacy and is also the first PoS (Proof of Stake) Cryptocurrency
                            to implement ZeroCoin(zMBT) and Zerocoin staking.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           MBT utilizes a Proof of Stake (PoS) consensus system algorithm,
-                           allowing all owners of MBT to participate in earning block rewards
+                           Mobolith utilizes a Proof of Stake (PoS) consensus system algorithm,
+                           allowing all owners of Mobolith to participate in earning block rewards
                            while securing the network with full node wallets, as well as to
                            run Masternodes to create and vote on proposals.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-MBT es una forma de dinero digital en línea que utiliza la tecnología blockchain que se puede transferir a nivel global, de forma instantánea  y con comisiones casi nulas. MBT incorpora un sistema de seguridad y privacidad líder en el mercado y es también la primera criptomoneda PoS (Proof of Stake) que implementa el sistema de Stake de ZeroCoin(zMBT) y Zerocoin.
+Mobolith es una forma de dinero digital en línea que utiliza la tecnología blockchain que se puede transferir a nivel global, de forma instantánea  y con comisiones casi nulas. Mobolith incorpora un sistema de seguridad y privacidad líder en el mercado y es también la primera criptomoneda PoS (Proof of Stake) que implementa el sistema de Stake de ZeroCoin(zMBT) y Zerocoin.
 &lt;/p&gt;&lt;p align="justify"&gt;
- MBT utiliza un algoritmo de consenso de Prueba de Stake (PoS), que permite a todos los propietarios de MBT participar en la obtención de recompensas de los nuevos bloques generados mientras aseguran la red con wallet de nodo completo , así como también ejecutan Masternodos para crear y votar las propuestas.
+ Mobolith utiliza un algoritmo de consenso de Prueba de Stake (PoS), que permite a todos los propietarios de Mobolith participar en la obtención de recompensas de los nuevos bloques generados mientras aseguran la red con wallet de nodo completo , así como también ejecutan Masternodos para crear y votar las propuestas.
 . &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
@@ -3887,18 +3887,18 @@ MBT es una forma de dinero digital en línea que utiliza la tecnología blockcha
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Newly received MBT requires 6 confirmations on the network
+                           Newly received Mobolith requires 6 confirmations on the network
                            to become eligible for spending which can take ~6 minutes.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Your MBT wallet also needs to be completely synchronized
+                           Your Mobolith wallet also needs to be completely synchronized
                            to see and spend balances on the network.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Los MBT recién recibidos requieren 6 confirmaciones en la red para ser elegibles para gastos que pueden tomar ~6 minutos.
+Los Mobolith recién recibidos requieren 6 confirmaciones en la red para ser elegibles para gastos que pueden tomar ~6 minutos.
 &lt;/p&gt;&lt;p align="justify"&gt;
-Tu cartera MBT también necesita estar completamente sincronizada para que pueda  ver y gastar el saldos en la red.
+Tu cartera Mobolith también necesita estar completamente sincronizada para que pueda  ver y gastar el saldos en la red.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
@@ -3910,8 +3910,8 @@ Tu cartera MBT también necesita estar completamente sincronizada para que pueda
         <translation>¿Cómo apuesto MBT?</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Make sure your wallet is completely synchronized and you are using the latest release. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You must have a balance of MBT with a minimum of 600 confirmations. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Your wallet must stay online and be unlocked for staking purposes. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Once all those steps are followed staking should be enabled. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state &amp;quot;Staking Enabled&amp;quot; to indicate it is staking. Using the command line interface (mbt-cli); the command &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; will confirm that staking is active. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Asegúrese de que su billetera esté completamente sincronizada y de que esté utilizando la última versión. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Debe tener un saldo de MBT con un mínimo de 600 confirmaciones.&lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Su billetera debe permanecer en línea y estar desbloqueada para realizar apuestas. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Una vez que se siguen todos esos pasos, se deberia habilitar el staking. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Puede ver el estado de las apuestas en la billetera colocando el mouse sobre el icono del paquete en la fila en la parte superior izquierda de la interfaz de la billetera. El paquete se iluminará y dirá "Staking Enabled" para indicar que está activo el staking. Usando la interfaz de línea de comando (mbt-cli); El comando &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; confirmará que el staking está activo. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Make sure your wallet is completely synchronized and you are using the latest release. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You must have a balance of Mobolith with a minimum of 600 confirmations. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Your wallet must stay online and be unlocked for staking purposes. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Once all those steps are followed staking should be enabled. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state &amp;quot;Staking Enabled&amp;quot; to indicate it is staking. Using the command line interface (mtb-cli); the command &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; will confirm that staking is active. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Asegúrese de que su billetera esté completamente sincronizada y de que esté utilizando la última versión. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Debe tener un saldo de Mobolith con un mínimo de 600 confirmaciones.&lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Su billetera debe permanecer en línea y estar desbloqueada para realizar apuestas. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Una vez que se siguen todos esos pasos, se deberia habilitar el staking. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Puede ver el estado de las apuestas en la billetera colocando el mouse sobre el icono del paquete en la fila en la parte superior izquierda de la interfaz de la billetera. El paquete se iluminará y dirá "Staking Enabled" para indicar que está activo el staking. Usando la interfaz de línea de comando (mtb-cli); El comando &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; confirmará que el staking está activo. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>4</source>
@@ -3944,7 +3944,7 @@ Tu cartera MBT también necesita estar completamente sincronizada para que pueda
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A masternode is a computer running a full node MBT core wallet with a
+                           A masternode is a computer running a full node Mobolith core wallet with a
                            requirement of 10,000 MBT secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
@@ -3967,10 +3967,10 @@ Tu cartera MBT también necesita estar completamente sincronizada para que pueda
                            Masternode Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Participate in MBT Governance&lt;/li&gt;
+                           &lt;li&gt;Participate in Mobolith Governance&lt;/li&gt;
                            &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
-                           &lt;li&gt;Help secure the MBT network&lt;/li&gt;
+                           &lt;li&gt;Help secure the Mobolith network&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
@@ -3986,7 +3986,7 @@ Tu cartera MBT también necesita estar completamente sincronizada para que pueda
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Un Masternode es un ordenador que ejecuta una Core Wallet de MBT de nodo
+Un Masternode es un ordenador que ejecuta una Core Wallet de Mobolith de nodo
 completo con un requisito de 10.000 MBT de garantía asegurados para prestar servicios
 adicionales a la red y a cambio, recibir una parte de la recompensa del bloque
 regularmente. Estos servicios incluyen:
@@ -4008,10 +4008,10 @@ propietarios de Masternodes menos sus costes de funcionamiento.
 Ventajas de los Masternodes:
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ul&gt;
-&lt;li&gt;Participar en el gobierno de MBT&lt;/li&gt;
+&lt;li&gt;Participar en el gobierno de Mobolith&lt;/li&gt;
 &lt;li&gt;Gana Recompensas Masternode&lt;/li&gt;
 &lt;li&gt;Opción de productos para venta futura&lt;/li&gt;
-&lt;/li&gt;Ayudar a proteger la red MBT&lt;/li&gt;
+&lt;/li&gt;Ayudar a proteger la red Mobolith&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
 
@@ -4153,8 +4153,8 @@ Requisitos:
         <translation>No se puede abrir la carpeta de copias de seguridad</translation>
     </message>
     <message>
-        <source>Unable to open mbt.conf with default application</source>
-        <translation>No se puede abrir mbt.conf con la aplicación predeterminada</translation>
+        <source>Unable to open mtb.conf with default application</source>
+        <translation>No se puede abrir mtb.conf con la aplicación predeterminada</translation>
     </message>
     <message>
         <source>In:</source>
@@ -4208,8 +4208,8 @@ Requisitos:
         <translation>Números de hilos de verificación del Scrip </translation>
     </message>
     <message>
-        <source>Start MBT on system login</source>
-        <translation>Iniciar MBT al iniciar sesión en el sistema</translation>
+        <source>Start Mobolith on system login</source>
+        <translation>Iniciar Mobolith al iniciar sesión en el sistema</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -4296,8 +4296,8 @@ Are you sure?
         <translation>CheckBox</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other MBT addresses after it matures.</source>
-        <translation>MultiSend le permite enviar automáticamente hasta el 100% de tus stakes o recompensas masternode a una lista de otras direcciones MBT después de que madurar.</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Mobolith addresses after it matures.</source>
+        <translation>MultiSend le permite enviar automáticamente hasta el 100% de tus stakes o recompensas masternode a una lista de otras direcciones Mobolith después de que madurar.</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4423,8 +4423,8 @@ Marque una o ambas casillas de verificación para enviar recompensas de stake y/
         <translation>Mensaje</translation>
     </message>
     <message>
-        <source>MBT address or contact label</source>
-        <translation>Dirección MBT o etiqueta de contacto</translation>
+        <source>Mobolith address or contact label</source>
+        <translation>Dirección Mobolith o etiqueta de contacto</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -4744,8 +4744,8 @@ Marque una o ambas casillas de verificación para enviar recompensas de stake y/
         <translation>Preguntas Frecuentes </translation>
     </message>
     <message>
-        <source>About MBT</source>
-        <translation>Acerca de MBT</translation>
+        <source>About Mobolith</source>
+        <translation>Acerca de Mobolith</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4816,7 +4816,7 @@ Are you sure?
     <name>ShutdownWindow</name>
     <message>
         <source>Mobolith Core is shutting down...</source>
-        <translation>El programa MBT se está cerrando...</translation>
+        <translation>El programa Mobolith se está cerrando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -5394,20 +5394,20 @@ Mobolith Core Wallet</source>
 Mobolith Core Wallet</translation>
     </message>
     <message>
-        <source>MBT is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>MBT es la tecnología blockchain de Prueba de Stake  más avanzada del mundo. Desarrollada por un equipo de desarrolladores y criptógrafos altamente experimentados.</translation>
+        <source>Mobolith is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>Mobolith es la tecnología blockchain de Prueba de Stake  más avanzada del mundo. Desarrollada por un equipo de desarrolladores y criptógrafos altamente experimentados.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - MBT believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Como dice nuestro manifiesto: La privacidad es un derecho humano básico no negociable; concede a los usuarios la libertad de compartir sus datos cuando y con quien quieran - MBT cree en la auto-soberanía&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - Mobolith believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Como dice nuestro manifiesto: La privacidad es un derecho humano básico no negociable; concede a los usuarios la libertad de compartir sus datos cuando y con quien quieran - Mobolith cree en la auto-soberanía&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is MBT's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>La red masternode es la red de segunda capa de MBT en la parte superior de la blockchain que permite a nuestra DAO proporcionar un gobierno descentralizado y una tesorería.</translation>
+        <source>The masternode network is Mobolith's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>La red masternode es la red de segunda capa de Mobolith en la parte superior de la blockchain que permite a nuestra DAO proporcionar un gobierno descentralizado y una tesorería.</translation>
     </message>
     <message>
-        <source>How MBT respects your privacy?</source>
-        <translation>¿Cómo MBT respeta tu privacidad?</translation>
+        <source>How Mobolith respects your privacy?</source>
+        <translation>¿Cómo Mobolith respeta tu privacidad?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -5917,8 +5917,8 @@ Ejecute 'sapling-fetch-params' o './util/fetch-params.sh' y luego reinicie.</tra
         <translation>Esto es una versión pre-release de prueba - use bajo su propia responsabilidad - ¡No lo utilice para recompensa de participación ni aplicaciones de comercio!</translation>
     </message>
     <message>
-        <source>Disable all MBT specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar toda la funcionalidad especifica MBT (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, predeterminado: %u)</translation>
+        <source>Disable all Mobolith specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar toda la funcionalidad especifica Mobolith (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, predeterminado: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -6700,8 +6700,8 @@ Ejecute 'sapling-fetch-params' o './util/fetch-params.sh' y luego reinicie.</tra
         <translation>Enviar monedas públicas (MBT)</translation>
     </message>
     <message>
-        <source>MBT address or contact label</source>
-        <translation>Dirección MBT o etiqueta de contacto</translation>
+        <source>Mobolith address or contact label</source>
+        <translation>Dirección Mobolith o etiqueta de contacto</translation>
     </message>
     <message>
         <source>Amount</source>

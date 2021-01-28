@@ -122,12 +122,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your MBT addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши MBT-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your Mobolith addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши Mobolith-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your MBT addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши MBT-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your Mobolith addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши Mobolith-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -363,8 +363,8 @@ for staking</source>
         <translation>ОТМЕНА</translation>
     </message>
     <message>
-        <source>MBT will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MBTs from being stolen by malware infecting your computer.</source>
-        <translation>MBT сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши MBT от кражи с использованием вредоносного ПО.</translation>
+        <source>Mobolith will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MBTs from being stolen by malware infecting your computer.</source>
+        <translation>Mobolith сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши Mobolith от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -1108,8 +1108,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid MBT address.</source>
-        <translation>Введенный адрес "%1" не является MBT адресом.</translation>
+        <source>The entered address "%1" is not a valid Mobolith address.</source>
+        <translation>Введенный адрес "%1" не является Mobolith адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1232,8 +1232,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Mobolith Core.</translation>
     </message>
     <message>
-        <source>Mobolith Core will download and store a copy of the MBT block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Mobolith Core загрузит и сохранит копию цепочки блоков MBT. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>Mobolith Core will download and store a copy of the Mobolith block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Mobolith Core загрузит и сохранит копию цепочки блоков Mobolith. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1826,8 +1826,8 @@ STAKING</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the MBT client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт MBT через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the Mobolith client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт Mobolith через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1846,12 +1846,12 @@ STAKING</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start MBT after logging in to the system.</source>
-        <translation>Автоматически запускать MBT после входа в систему.</translation>
+        <source>Automatically start Mobolith after logging in to the system.</source>
+        <translation>Автоматически запускать Mobolith после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start MBT on system login</source>
-        <translation>&amp;Запускать MBT при входе в систему</translation>
+        <source>&amp;Start Mobolith on system login</source>
+        <translation>&amp;Запускать Mobolith при входе в систему</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1878,8 +1878,8 @@ STAKING</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting MBT.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска MBT.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Mobolith.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска Mobolith.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1928,8 +1928,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Порог разделения доли:</translation>
     </message>
     <message>
-        <source>Connect to the MBT network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети MBT через SOCKS5 прокси.</translation>
+        <source>Connect to the Mobolith network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети Mobolith через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2174,8 +2174,8 @@ Address: %4
         <translation>Не удалось запустить mbt: обработчик click-to-pay </translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid MBT address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный MBT адрес или неверные параметеры URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Mobolith address or malformed URI parameters.</source>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный Mobolith адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2260,8 +2260,8 @@ Address: %4
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter MBT address (e.g. %1)</source>
-        <translation>Введите адрес MBT (например, %1)</translation>
+        <source>Enter Mobolith address (e.g. %1)</source>
+        <translation>Введите адрес Mobolith (например, %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2304,8 +2304,8 @@ Address: %4
         <translation>%1 мс</translation>
     </message>
     <message>
-        <source>A fatal error occurred. MBT can no longer continue safely and will quit.</source>
-        <translation>Произошла фатальная ошибка. MBT больше не может безопасно продолжать работу и завершит работу.</translation>
+        <source>A fatal error occurred. Mobolith can no longer continue safely and will quit.</source>
+        <translation>Произошла фатальная ошибка. Mobolith больше не может безопасно продолжать работу и завершит работу.</translation>
     </message>
     <message>
         <source>Mobolith Core</source>
@@ -2567,8 +2567,8 @@ Address: %4
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the MBT debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки MBT. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the Mobolith debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки Mobolith. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2792,8 +2792,8 @@ Address: %4
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the MBT RPC console.</source>
-        <translation>Добро пожаловать в окружение MBT RPC.</translation>
+        <source>Welcome to the Mobolith RPC console.</source>
+        <translation>Добро пожаловать в окружение Mobolith RPC.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3068,8 +3068,8 @@ Address: %4
         <translation>MBT</translation>
     </message>
     <message>
-        <source>Instead of sharing only a MBT address, you can create a payment request, bundling up more information</source>
-        <translation>Вместо того, чтобы делиться только адресом MBT, вы можете создать запрос на оплату, связывая больше информации</translation>
+        <source>Instead of sharing only a Mobolith address, you can create a payment request, bundling up more information</source>
+        <translation>Вместо того, чтобы делиться только адресом Mobolith, вы можете создать запрос на оплату, связывая больше информации</translation>
     </message>
     <message>
         <source>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
@@ -3159,8 +3159,8 @@ Address: %4
         <translation>Смена адреса</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" MBT address</source>
-        <translation>Остаточная часть значения, полученного от значения входов минус выходов, идет на «изменение» адреса MBT</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" Mobolith address</source>
+        <translation>Остаточная часть значения, полученного от значения входов минус выходов, идет на «изменение» адреса Mobolith</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -3474,9 +3474,9 @@ Remember to write it down and store it safely, otherwise you might lose access t
         <translation>Инструмент BIP38</translation>
     </message>
     <message>
-        <source>Encrypt your MBT addresses (key pair actually) using BIP38 encryption.
+        <source>Encrypt your Mobolith addresses (key pair actually) using BIP38 encryption.
 Using this mechanism you can share your keys without middle-man risk, only need to store your passphrase safely</source>
-        <translation>Зашифруйте свои адреса MBT (фактически, пару ключей), используя шифрование BIP38.
+        <translation>Зашифруйте свои адреса Mobolith (фактически, пару ключей), используя шифрование BIP38.
 С помощью этого механизма вы можете делиться своими ключами без риска посредника, вам нужно только безопасно хранить вашу парольную фразу</translation>
     </message>
     <message>
@@ -3512,8 +3512,8 @@ Using this mechanism you can share your keys without middle-man risk, only need 
         <translation>Расшифровать ключ</translation>
     </message>
     <message>
-        <source>MBT address</source>
-        <translation>Адрес MBT</translation>
+        <source>Mobolith address</source>
+        <translation>Адрес Mobolith</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3645,8 +3645,8 @@ Verify that you have installed a predetermined text editor.</source>
 Убедитесь, что вы установили заранее установленный текстовый редактор.</translation>
     </message>
     <message>
-        <source>Welcome to the MBT RPC console.</source>
-        <translation>Добро пожаловать в окружение MBT RPC.</translation>
+        <source>Welcome to the Mobolith RPC console.</source>
+        <translation>Добро пожаловать в окружение Mobolith RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3829,8 +3829,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>Вид</translation>
     </message>
     <message>
-        <source>1) What is MBT?</source>
-        <translation>1) Что такое MBT?</translation>
+        <source>1) What is Mobolith?</source>
+        <translation>1) Что такое Mobolith?</translation>
     </message>
     <message>
         <source>2) Why are my MBT unspendable?</source>
@@ -3845,33 +3845,33 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>1</translation>
     </message>
     <message>
-        <source>What is MBT?</source>
-        <translation>Что такое MBT?</translation>
+        <source>What is Mobolith?</source>
+        <translation>Что такое Mobolith?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           MBT is a form of digital online money using blockchain technology
+                           Mobolith is a form of digital online money using blockchain technology
                            that can be easily transferred globally, instantly, and with near
-                           zero fees.  MBT incorporates market leading security &amp;
+                           zero fees.  Mobolith incorporates market leading security &amp;
                            privacy and is also the first PoS (Proof of Stake) Cryptocurrency
                            to implement ZeroCoin(zMBT) and Zerocoin staking.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           MBT utilizes a Proof of Stake (PoS) consensus system algorithm,
-                           allowing all owners of MBT to participate in earning block rewards
+                           Mobolith utilizes a Proof of Stake (PoS) consensus system algorithm,
+                           allowing all owners of Mobolith to participate in earning block rewards
                            while securing the network with full node wallets, as well as to
                            run Masternodes to create and vote on proposals.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-MBT - это форма цифровых онлайн-денег, использующая технологию блокчейн,
+Mobolith - это форма цифровых онлайн-денег, использующая технологию блокчейн,
 которая может быть легко переведена по всему миру, мгновенно и с практически
-нулевой комиссией. MBT включает в себя лидирующую на рынке защиту и
+нулевой комиссией. Mobolith включает в себя лидирующую на рынке защиту и
 «конфиденциальность», а также является первой PoS криптовалютой (Proof of Stake),
 в которой реализована система стекинга ZeroCoin (zMBT) и Zerocoin.
 &lt;/p&gt;&lt;p align="justify"&gt;
-MBT использует консенсус PoS (Proof of Stake), позволяя всем владельцам MBT участвовать в заработке вознаграждений
+Mobolith использует консенсус PoS (Proof of Stake), позволяя всем владельцам Mobolith участвовать в заработке вознаграждений
 при этом обеспечивая безопасность сети с помощью кошельков с полными узлами, а также позволяет
 запускать мастерноды для создания предложений и голосования по ним.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
@@ -3887,19 +3887,19 @@ MBT использует консенсус PoS (Proof of Stake), позволя
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Newly received MBT requires 6 confirmations on the network
+                           Newly received Mobolith requires 6 confirmations on the network
                            to become eligible for spending which can take ~6 minutes.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Your MBT wallet also needs to be completely synchronized
+                           Your Mobolith wallet also needs to be completely synchronized
                            to see and spend balances on the network.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Недавно полученным MBT требуется 6 подтверждений в сети,
+Недавно полученным Mobolith требуется 6 подтверждений в сети,
 чтобы получить право быть расходуемыми. Это может занять примерно 6 минут.
 &lt;/p&gt;&lt;p align="justify"&gt;
-Ваш кошелек MBT также должен быть полностью синхронизирован,
+Ваш кошелек Mobolith также должен быть полностью синхронизирован,
 чтобы видеть баланс и расходовать его в сети.
  &lt;/p&gt;&lt;/body&gt;&lt;/html&gt; </translation>
     </message>
@@ -3940,7 +3940,7 @@ MBT использует консенсус PoS (Proof of Stake), позволя
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A masternode is a computer running a full node MBT core wallet with a
+                           A masternode is a computer running a full node Mobolith core wallet with a
                            requirement of 10,000 MBT secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
@@ -3963,10 +3963,10 @@ MBT использует консенсус PoS (Proof of Stake), позволя
                            Masternode Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Participate in MBT Governance&lt;/li&gt;
+                           &lt;li&gt;Participate in Mobolith Governance&lt;/li&gt;
                            &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
-                           &lt;li&gt;Help secure the MBT network&lt;/li&gt;
+                           &lt;li&gt;Help secure the Mobolith network&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
@@ -3981,7 +3981,7 @@ MBT использует консенсус PoS (Proof of Stake), позволя
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
-Мастернода - это компьютер, на котором запущен базовый кошелек MBT с полным узлом и для которого требуется обеспечение в 10000 MBT для обеспечения дополнительных услуг сети и, в свою очередь, регулярного получения части вознаграждения за блок. Эти услуги в себя включают:
+Мастернода - это компьютер, на котором запущен базовый кошелек Mobolith с полным узлом и для которого требуется обеспечение в 10000 MBT для обеспечения дополнительных услуг сети и, в свою очередь, регулярного получения части вознаграждения за блок. Эти услуги в себя включают:
 
 Мгновенные транзакции (SwiftX)
 Децентрализованное управление (Голосование по предложениям)
@@ -3993,10 +3993,10 @@ MBT использует консенсус PoS (Proof of Stake), позволя
 
 Привилегии мастерноды:
 
-Участие в управлении MBT
+Участие в управлении Mobolith
 Получение вознаграждений за мастерноду
 Товарные опционы для будущей продажи
-Помощь в защите сети MBT
+Помощь в защите сети Mobolith
 
 Требования:
 
@@ -4188,8 +4188,8 @@ MBT использует консенсус PoS (Proof of Stake), позволя
         <translation>Количество потоков проверки скрипта</translation>
     </message>
     <message>
-        <source>Start MBT on system login</source>
-        <translation>Запускать MBT при входе в систему</translation>
+        <source>Start Mobolith on system login</source>
+        <translation>Запускать Mobolith при входе в систему</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -4276,8 +4276,8 @@ Are you sure?
         <translation>Флажок</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other MBT addresses after it matures.</source>
-        <translation>MultiSend позволяет автоматически отправлять до 100% ваших вознаграждений от стекинга или мастернод в список других адресов MBT после его созревания.</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Mobolith addresses after it matures.</source>
+        <translation>MultiSend позволяет автоматически отправлять до 100% ваших вознаграждений от стекинга или мастернод в список других адресов Mobolith после его созревания.</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4403,8 +4403,8 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
         <translation>Сообщение</translation>
     </message>
     <message>
-        <source>MBT address or contact label</source>
-        <translation>MBT адрес или лейбл контакта</translation>
+        <source>Mobolith address or contact label</source>
+        <translation>Mobolith адрес или лейбл контакта</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -4724,8 +4724,8 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
         <translation>ЧаВо</translation>
     </message>
     <message>
-        <source>About MBT</source>
-        <translation>О MBT</translation>
+        <source>About Mobolith</source>
+        <translation>О Mobolith</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -5366,23 +5366,23 @@ Select fewer inputs with coin control.</source>
         <source>Welcome to
 Mobolith Core Wallet</source>
         <translation>Добро пожаловать
-в основной кошелек MBT</translation>
+в основной кошелек Mobolith</translation>
     </message>
     <message>
-        <source>MBT is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>MBT - самая инновационная в мире технология на основе блокчейна Proof of Stake. Разработана командой опытных разработчиков и криптографов.</translation>
+        <source>Mobolith is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>Mobolith - самая инновационная в мире технология на основе блокчейна Proof of Stake. Разработана командой опытных разработчиков и криптографов.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - MBT believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Как говорится в нашем манифесте: конфиденциальность является не подлежащим обсуждению основным правом человека; это дает пользователям свободу делиться своими данными в любое время и с кем угодно, ведь MBT верит в собственный суверенитет.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - Mobolith believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Как говорится в нашем манифесте: конфиденциальность является не подлежащим обсуждению основным правом человека; это дает пользователям свободу делиться своими данными в любое время и с кем угодно, ведь Mobolith верит в собственный суверенитет.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is MBT's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Сеть мастернод - это сеть второго уровня MBT поверх блокчейна, которая позволяет нашему ДАО обеспечивать децентрализованное управление и казначейство.</translation>
+        <source>The masternode network is Mobolith's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Сеть мастернод - это сеть второго уровня Mobolith поверх блокчейна, которая позволяет нашему ДАО обеспечивать децентрализованное управление и казначейство.</translation>
     </message>
     <message>
-        <source>How MBT respects your privacy?</source>
-        <translation>Как MBT уважает вашу конфиденциальность?</translation>
+        <source>How Mobolith respects your privacy?</source>
+        <translation>Как Mobolith уважает вашу конфиденциальность?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -5868,8 +5868,8 @@ Mobolith Core Wallet</source>
         <translation>Это предварительная версия сборки - используйте на свой страх и риск - не используйте для ставок или коммерческих приложений!</translation>
     </message>
     <message>
-        <source>Disable all MBT specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Отключите все специфические функции MBT (Masternodes, Zerocoin, SwiftX, Бюджетирование) (0-1, по умолчанию: %u)</translation>
+        <source>Disable all Mobolith specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Отключите все специфические функции Mobolith (Masternodes, Zerocoin, SwiftX, Бюджетирование) (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -6625,8 +6625,8 @@ Mobolith Core Wallet</source>
         <translation>Отправить монеты (MBT)</translation>
     </message>
     <message>
-        <source>MBT address or contact label</source>
-        <translation>MBT адрес или лейбл контакта</translation>
+        <source>Mobolith address or contact label</source>
+        <translation>Mobolith адрес или лейбл контакта</translation>
     </message>
     <message>
         <source>Amount</source>

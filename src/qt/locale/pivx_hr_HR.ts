@@ -122,12 +122,12 @@
         <translation>Adrese za primanje</translation>
     </message>
     <message>
-        <source>These are your MBT addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To su vaše MBT adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your Mobolith addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To su vaše Mobolith adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your MBT addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To su vaše MBT adrese za primanje uplata. Preporuča se upotreba nove adrese primatelja za svaku transakciju.</translation>
+        <source>These are your Mobolith addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To su vaše Mobolith adrese za primanje uplata. Preporuča se upotreba nove adrese primatelja za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -360,8 +360,8 @@ za staking</translation>
         <translation>PONIŠTI</translation>
     </message>
     <message>
-        <source>MBT will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MBTs from being stolen by malware infecting your computer.</source>
-        <translation>MBT će se sada zatvoriti kako bi se dovršio proces šifriranja. Ne zaboravite da šifriranje Vašeg novčanika ne može u potpunosti zaštititi vaše MBT od krađje zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>Mobolith will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MBTs from being stolen by malware infecting your computer.</source>
+        <translation>Mobolith će se sada zatvoriti kako bi se dovršio proces šifriranja. Ne zaboravite da šifriranje Vašeg novčanika ne može u potpunosti zaštititi vaše MBT od krađje zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -1079,8 +1079,8 @@ Automatski će se pokrenuti čim novčanik dobije dovoljno potvrda o neiskorišt
         <translation>Uredi adresu pošiljatelja</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid MBT address.</source>
-        <translation>Unesena adresa "%1" nije ispravna MBT adresa.</translation>
+        <source>The entered address "%1" is not a valid Mobolith address.</source>
+        <translation>Unesena adresa "%1" nije ispravna Mobolith adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1203,8 +1203,8 @@ Automatski će se pokrenuti čim novčanik dobije dovoljno potvrda o neiskorišt
         <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će Mobolith Core pohraniti svoje podatke.</translation>
     </message>
     <message>
-        <source>Mobolith Core will download and store a copy of the MBT block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Mobolith Core preuzima i pohranjuje kopiju MBT blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
+        <source>Mobolith Core will download and store a copy of the Mobolith block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Mobolith Core preuzima i pohranjuje kopiju Mobolith blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1327,8 +1327,8 @@ Automatski će se pokrenuti čim novčanik dobije dovoljno potvrda o neiskorišt
         <translation>Stvori novi Masternode Controller</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a MBT Masternode you must dedicate 10,000 MBT (the unit of MBT) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Da biste stvoriti MBT Masternode, morate odvojiti 10,000 MBT (jedinica MBT-a) prema mreži (međjutim, ti novčići su i dalje vaši i nikad neće napustiti vaše vlasništvo). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt; Možete isključiti node i otključati novčiće u bilo kojem trenutku.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a Mobolith Masternode you must dedicate 10,000 MBT (the unit of Mobolith) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Da biste stvoriti Mobolith Masternode, morate odvojiti 10,000 MBT (jedinica Mobolith-a) prema mreži (međjutim, ti novčići su i dalje vaši i nikad neće napustiti vaše vlasništvo). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt; Možete isključiti node i otključati novčiće u bilo kojem trenutku.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Masternode Name</source>
@@ -1778,8 +1778,8 @@ STAKING</translation>
         <translation>Ako onemogućite potrošnju nepotvrđjenog ostatka, ostatak od transakcije &lt;br/&gt;ne može se koristiti dok ta transakcija nema barem jednu potvrdu. &lt;br/&gt;Ovo takođjer utječe na izračun vašeg salda.</translation>
     </message>
     <message>
-        <source>Automatically open the MBT client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvorite MBT klijentski ulaz na ruteru. To funkcionira samo kada vaš ruter podržava UPnP i omogućen je.</translation>
+        <source>Automatically open the Mobolith client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvorite Mobolith klijentski ulaz na ruteru. To funkcionira samo kada vaš ruter podržava UPnP i omogućen je.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1798,12 +1798,12 @@ STAKING</translation>
         <translation>Stručnjak</translation>
     </message>
     <message>
-        <source>Automatically start MBT after logging in to the system.</source>
-        <translation>Automatski pokrenite MBT nakon prijave u sustav.</translation>
+        <source>Automatically start Mobolith after logging in to the system.</source>
+        <translation>Automatski pokrenite Mobolith nakon prijave u sustav.</translation>
     </message>
     <message>
-        <source>&amp;Start MBT on system login</source>
-        <translation>&amp;Pokrenite MBT pri pokretanju sustava</translation>
+        <source>&amp;Start Mobolith on system login</source>
+        <translation>&amp;Pokrenite Mobolith pri pokretanju sustava</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1830,8 +1830,8 @@ STAKING</translation>
         <translation>&amp;Mreža</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting MBT.</source>
-        <translation>Jezik korisničkog sučelja možete postaviti ovdje. Postavke će stupiti na snagu nakon ponovnog pokretanja MBT novčanika.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Mobolith.</source>
+        <translation>Jezik korisničkog sučelja možete postaviti ovdje. Postavke će stupiti na snagu nakon ponovnog pokretanja Mobolith novčanika.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1880,8 +1880,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Prag razdvajanja Stake-a:</translation>
     </message>
     <message>
-        <source>Connect to the MBT network through a SOCKS5 proxy.</source>
-        <translation>Povežite se s MBT mrežom putem SOCKS5 proxy poslužitelja.</translation>
+        <source>Connect to the Mobolith network through a SOCKS5 proxy.</source>
+        <translation>Povežite se s Mobolith mrežom putem SOCKS5 proxy poslužitelja.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2126,8 +2126,8 @@ Adresa: %4
         <translation>Ne može se pokrenuti mbt: clik-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid MBT address or malformed URI parameters.</source>
-        <translation>URI se ne može analizirati! To može biti uzrokovana nevažećom MBT adresom ili nepravilnim URI parametrima.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Mobolith address or malformed URI parameters.</source>
+        <translation>URI se ne može analizirati! To može biti uzrokovana nevažećom Mobolith adresom ili nepravilnim URI parametrima.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2216,8 +2216,8 @@ Adresa: %4
         <translation>Iznos</translation>
     </message>
     <message>
-        <source>Enter MBT address (e.g. %1)</source>
-        <translation>Upišite MBT adresu (npr. %1)</translation>
+        <source>Enter Mobolith address (e.g. %1)</source>
+        <translation>Upišite Mobolith adresu (npr. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2260,8 +2260,8 @@ Adresa: %4
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>A fatal error occurred. MBT can no longer continue safely and will quit.</source>
-        <translation>Dogodila se fatalna pogreška. MBT ne može sigurno nastaviti i izaći će.</translation>
+        <source>A fatal error occurred. Mobolith can no longer continue safely and will quit.</source>
+        <translation>Dogodila se fatalna pogreška. Mobolith ne može sigurno nastaviti i izaći će.</translation>
     </message>
     <message>
         <source>Mobolith Core</source>
@@ -2519,8 +2519,8 @@ Adresa: %4
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the MBT debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorite MBT debug log datoteku iz aktualnog direktorija podataka. To može potrajati nekoliko sekundi za velike datoteke zapisnika.</translation>
+        <source>Open the Mobolith debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorite Mobolith debug log datoteku iz aktualnog direktorija podataka. To može potrajati nekoliko sekundi za velike datoteke zapisnika.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2743,8 +2743,8 @@ Adresa: %4
         <translation>Iz:</translation>
     </message>
     <message>
-        <source>Welcome to the MBT RPC console.</source>
-        <translation>Dobrodošli na MBT RPC konzolu.</translation>
+        <source>Welcome to the Mobolith RPC console.</source>
+        <translation>Dobrodošli na Mobolith RPC konzolu.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3094,8 +3094,8 @@ Adresa: %4
         <translation>Prilagođjena adresa za ostatak</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" MBT address</source>
-        <translation>Ostatak vrijednosti koja proizlazi iz ulaza umanjen za izlaznu vrijednost ide na MBT adresu za "ostatak"</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" Mobolith address</source>
+        <translation>Ostatak vrijednosti koja proizlazi iz ulaza umanjen za izlaznu vrijednost ide na Mobolith adresu za "ostatak"</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -3417,8 +3417,8 @@ Ovi novčići više neće biti cold-stakeani.</translation>
         <translation>DEŠIFRIRAJ KLJUČ</translation>
     </message>
     <message>
-        <source>MBT address</source>
-        <translation>MBT adresa</translation>
+        <source>Mobolith address</source>
+        <translation>Mobolith adresa</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3550,8 +3550,8 @@ Verify that you have installed a predetermined text editor.</source>
 Provjerite jeste li instalirali unaprijed određjeni uređjivač teksta.</translation>
     </message>
     <message>
-        <source>Welcome to the MBT RPC console.</source>
-        <translation>Dobrodošli na MBT RPC konzolu.</translation>
+        <source>Welcome to the Mobolith RPC console.</source>
+        <translation>Dobrodošli na Mobolith RPC konzolu.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3735,8 +3735,8 @@ Došlo je do greške prilikom spremanja popisa adresa u %1. Molimo pokušajte po
         <translation>Obrazac</translation>
     </message>
     <message>
-        <source>1) What is MBT?</source>
-        <translation>1) Što je MBT?</translation>
+        <source>1) What is Mobolith?</source>
+        <translation>1) Što je Mobolith?</translation>
     </message>
     <message>
         <source>2) Why are my MBT unspendable?</source>
@@ -3751,34 +3751,34 @@ Došlo je do greške prilikom spremanja popisa adresa u %1. Molimo pokušajte po
         <translation>1</translation>
     </message>
     <message>
-        <source>What is MBT?</source>
-        <translation>Što je MBT?</translation>
+        <source>What is Mobolith?</source>
+        <translation>Što je Mobolith?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           MBT is a form of digital online money using blockchain technology
+                           Mobolith is a form of digital online money using blockchain technology
                            that can be easily transferred globally, instantly, and with near
-                           zero fees.  MBT incorporates market leading security &amp;
+                           zero fees.  Mobolith incorporates market leading security &amp;
                            privacy and is also the first PoS (Proof of Stake) Cryptocurrency
                            to implement ZeroCoin(zMBT) and Zerocoin staking.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           MBT utilizes a Proof of Stake (PoS) consensus system algorithm,
-                           allowing all owners of MBT to participate in earning block rewards
+                           Mobolith utilizes a Proof of Stake (PoS) consensus system algorithm,
+                           allowing all owners of Mobolith to participate in earning block rewards
                            while securing the network with full node wallets, as well as to
                            run Masternodes to create and vote on proposals.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-MBT je oblik digitalnog online novca koji koristi blockchain tehnologiju
+Mobolith je oblik digitalnog online novca koji koristi blockchain tehnologiju
 koji se lako može slati i primati globalno, trenutno, i gotovo bez naknade.
-MBT uključuje vodeću sigurnost  i privatnost na tržištu
+Mobolith uključuje vodeću sigurnost  i privatnost na tržištu
 i takođjer je prva PoS (Proof of Stake) kriptovaluta
 koja je implementirala ZeroCoin (zMBT) i Zerocoin staking.
 &lt;/p&gt;&lt;p align="justify"&gt;
-MBT koristi algoritam konsenzusa Proof of Stake (PoS),
-omogućujući svim vlasnicima MBT-a sudjelovanje u zarađi blokovih nagrada
+Mobolith koristi algoritam konsenzusa Proof of Stake (PoS),
+omogućujući svim vlasnicima Mobolith-a sudjelovanje u zarađi blokovih nagrada
 dok osiguravaju mrežu full node novčanicima, kao i
 vodjenje Masternode-ova za stvaranje i glasanje o prijedlozima.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -3795,19 +3795,19 @@ vodjenje Masternode-ova za stvaranje i glasanje o prijedlozima.
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Newly received MBT requires 6 confirmations on the network
+                           Newly received Mobolith requires 6 confirmations on the network
                            to become eligible for spending which can take ~6 minutes.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Your MBT wallet also needs to be completely synchronized
+                           Your Mobolith wallet also needs to be completely synchronized
                            to see and spend balances on the network.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Novoprimljeni MBT zahtjeva 6 potvrda na mreži
+Novoprimljeni Mobolith zahtjeva 6 potvrda na mreži
 da bi se mogao potrošiti što može potrajati ~6 minuta.
 &lt;/p&gt;&lt;p align="justify"&gt;
-Vaš MBT novčanik takođjer treba biti u potpunosti sinkroniziran
+Vaš Mobolith novčanik takođjer treba biti u potpunosti sinkroniziran
 da biste vidjeli i mogli potrošiti sredstva na mreži.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
@@ -3851,7 +3851,7 @@ da biste vidjeli i mogli potrošiti sredstva na mreži.
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A masternode is a computer running a full node MBT core wallet with a
+                           A masternode is a computer running a full node Mobolith core wallet with a
                            requirement of 10,000 MBT secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
@@ -3874,10 +3874,10 @@ da biste vidjeli i mogli potrošiti sredstva na mreži.
                            Masternode Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Participate in MBT Governance&lt;/li&gt;
+                           &lt;li&gt;Participate in Mobolith Governance&lt;/li&gt;
                            &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
-                           &lt;li&gt;Help secure the MBT network&lt;/li&gt;
+                           &lt;li&gt;Help secure the Mobolith network&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
@@ -3916,10 +3916,10 @@ vlasnicima masternode-ova umanjeno za troškove održavanja.
 Povlastice masternode-ova:
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ul&gt;
-&lt;li&gt;Sudjelovanje u upravljanju MBT-a&lt;/li&gt;
+&lt;li&gt;Sudjelovanje u upravljanju Mobolith-a&lt;/li&gt;
 &lt;li&gt;Zaradjivanje Masternode nagrada&lt;/li&gt;
 &lt;li&gt;Robna opcija za buduću prodaju&lt;/li&gt;
-&lt;li&gt;Pomaže u osiguravanju MBT mreže&lt;/li&gt;
+&lt;li&gt;Pomaže u osiguravanju Mobolith mreže&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
 
@@ -4101,8 +4101,8 @@ Zahtjevi:
         <translation>Number of script verification threads</translation>
     </message>
     <message>
-        <source>Start MBT on system login</source>
-        <translation>Pokrenite MBT pri pokretanju računala</translation>
+        <source>Start Mobolith on system login</source>
+        <translation>Pokrenite Mobolith pri pokretanju računala</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -4189,8 +4189,8 @@ Jeste li sigurni?
         <translation>PotvrdniOkvir</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other MBT addresses after it matures.</source>
-        <translation>MultiSend vam omogućuje da automatski pošaljete do 100% svog uloga ili nagrade masternode na popis drugih MBT adresa nakon što sazriju.</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Mobolith addresses after it matures.</source>
+        <translation>MultiSend vam omogućuje da automatski pošaljete do 100% svog uloga ili nagrade masternode na popis drugih Mobolith adresa nakon što sazriju.</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4312,8 +4312,8 @@ Označite jedan ili oba polja za potvrdu da biste poslali staking i/ili masterno
         <translation>Poruka</translation>
     </message>
     <message>
-        <source>MBT address or contact label</source>
-        <translation>MBT adresa ili naziv kontakta</translation>
+        <source>Mobolith address or contact label</source>
+        <translation>Mobolith adresa ili naziv kontakta</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -4597,8 +4597,8 @@ Označite jedan ili oba polja za potvrdu da biste poslali staking i/ili masterno
         <translation>Najčešće postavljena pitanja</translation>
     </message>
     <message>
-        <source>About MBT</source>
-        <translation>O MBT-u</translation>
+        <source>About Mobolith</source>
+        <translation>O Mobolith-u</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -5218,23 +5218,23 @@ se nova sigurnosna kopija.
         <source>Welcome to
 Mobolith Core Wallet</source>
         <translation>Dobrodošli u
-MBT temeljni novčanik</translation>
+Mobolith temeljni novčanik</translation>
     </message>
     <message>
-        <source>MBT is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>MBT je najinovativnija blockchain tehnologija na svijetu bazirana na Proof of Stake tehnologiji. Razvijena je od strane vrlo iskusnih programera i kriptografa.</translation>
+        <source>Mobolith is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>Mobolith je najinovativnija blockchain tehnologija na svijetu bazirana na Proof of Stake tehnologiji. Razvijena je od strane vrlo iskusnih programera i kriptografa.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - MBT believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Kao što kaže naš manifest: Privatnost je temeljno ljudsko pravo o kojemu se ne pregovara; korisnicima daje slobodu dijeljenja svojih podataka kad god i s kim god žele - MBT vjeruje u suverenitet.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - Mobolith believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Kao što kaže naš manifest: Privatnost je temeljno ljudsko pravo o kojemu se ne pregovara; korisnicima daje slobodu dijeljenja svojih podataka kad god i s kim god žele - Mobolith vjeruje u suverenitet.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is MBT's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Masternode mreža je mreža drugog sloja MBT-a na vrhu blockchaina koja omogućuje našem DAO-u pružanje decentraliziranog upravljanja i riznice.</translation>
+        <source>The masternode network is Mobolith's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Masternode mreža je mreža drugog sloja Mobolith-a na vrhu blockchaina koja omogućuje našem DAO-u pružanje decentraliziranog upravljanja i riznice.</translation>
     </message>
     <message>
-        <source>How MBT respects your privacy?</source>
-        <translation>Kako MBT poštuje Vašu privatnost?</translation>
+        <source>How Mobolith respects your privacy?</source>
+        <translation>Kako Mobolith poštuje Vašu privatnost?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -5524,8 +5524,8 @@ MBT temeljni novčanik</translation>
         <translation>Autorska prava (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Mobolith Core Developers</source>
-        <translation>Autorska prava (C) 2015-%i The Mobolith Core Developers</translation>
+        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
+        <translation>Autorska prava (C) 2015-%i The PIVX Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5721,8 +5721,8 @@ MBT temeljni novčanik</translation>
         <translation>Ovo je priprema za testiranje prije puštanja - upotrebljavajte na vlastiti rizik - nemojte ga koristiti za staking ili trgovinske aplikacije!</translation>
     </message>
     <message>
-        <source>Disable all MBT specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Onemogući sve specifične funkcije MBT (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, zadano: %u)</translation>
+        <source>Disable all Mobolith specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Onemogući sve specifične funkcije Mobolith (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, zadano: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -6370,8 +6370,8 @@ MBT temeljni novčanik</translation>
         <translation>Pošalji javne novčiće (MBT)</translation>
     </message>
     <message>
-        <source>MBT address or contact label</source>
-        <translation>MBT adresa ili naziv kontakta</translation>
+        <source>Mobolith address or contact label</source>
+        <translation>Mobolith adresa ili naziv kontakta</translation>
     </message>
     <message>
         <source>Amount</source>
