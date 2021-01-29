@@ -21,7 +21,7 @@ CzPIVWallet::CzPIVWallet(CWallet* parent)
     uint256 hashSeed;
     bool fFirstRun = !walletdb.ReadCurrentSeedHash(hashSeed);
 
-    //Check for old db version of storing zpiv seed
+    //Check for old db version of storing zmbt seed
     if (fFirstRun) {
         uint256 seed;
         if (walletdb.ReadZPIVSeed_deprecated(seed)) {
@@ -30,10 +30,10 @@ CzPIVWallet::CzPIVWallet(CWallet* parent)
             hashSeed = Hash(seed.begin(), seed.end());
             if (wallet->AddDeterministicSeed(seed)) {
                 if (walletdb.EraseZPIVSeed_deprecated()) {
-                    LogPrintf("%s: Updated zPIV seed databasing\n", __func__);
+                    LogPrintf("%s: Updated zMBT seed databasing\n", __func__);
                     fFirstRun = false;
                 } else {
-                    LogPrintf("%s: failed to remove old zpiv seed\n", __func__);
+                    LogPrintf("%s: failed to remove old zmbt seed\n", __func__);
                 }
             }
         }
@@ -55,7 +55,7 @@ CzPIVWallet::CzPIVWallet(CWallet* parent)
         key.MakeNewKey(true);
         seed = key.GetPrivKey_256();
         seedMaster = seed;
-        LogPrintf("%s: first run of zpiv wallet detected, new seed generated. Seedhash=%s\n", __func__, Hash(seed.begin(), seed.end()).GetHex());
+        LogPrintf("%s: first run of zmbt wallet detected, new seed generated. Seedhash=%s\n", __func__, Hash(seed.begin(), seed.end()).GetHex());
     } else if (!parent->GetDeterministicSeed(hashSeed, seed)) {
         LogPrintf("%s: failed to get deterministic seed for hashseed %s\n", __func__, hashSeed.GetHex());
         return;

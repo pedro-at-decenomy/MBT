@@ -451,7 +451,7 @@ std::set<CMintMeta> CzPIVTracker::ListMints(bool fUnusedOnly, bool fMatureOnly, 
                 continue;
             Add(dMint, false, false, wallet->getZWallet());
         }
-        LogPrint(BCLog::LEGACYZC, "%s: added %d dzpiv from DB\n", __func__, listDeterministicDB.size());
+        LogPrint(BCLog::LEGACYZC, "%s: added %d dzMBT from DB\n", __func__, listDeterministicDB.size());
     }
 
     std::vector<CMintMeta> vOverWrite;
