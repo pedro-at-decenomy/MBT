@@ -128,7 +128,7 @@ public:
 };
 
 /**
- * PIVX RPC command dispatcher.
+ * Mobolith RPC command dispatcher.
  */
 class CRPCTable
 {
