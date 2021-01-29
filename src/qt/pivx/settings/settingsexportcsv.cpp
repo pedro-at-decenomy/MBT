@@ -59,7 +59,7 @@ void SettingsExportCSV::selectFileOutput(const bool& isTxExport)
 {
     QString filename = GUIUtil::getSaveFileName(this,
                                         isTxExport ? tr("Export CSV") : tr("Export Address List"), QString(),
-                                        isTxExport ? tr("PIVX_tx_csv_export(*.csv)") : tr("PIVX_addresses_csv_export(*.csv)"),
+                                        isTxExport ? tr("MBT_tx_csv_export(*.csv)") : tr("MBT_addresses_csv_export(*.csv)"),
                                         nullptr);
 
     if (isTxExport) {
