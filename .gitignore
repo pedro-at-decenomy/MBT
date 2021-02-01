@@ -21,7 +21,7 @@ src/mbt-tx
 src/bench/bench_mbt
 src/test/test_mbt
 src/qt/test/test_mbt-qt
-
+src/qt/mbt-qt
 
 # autoreconf
 Makefile.in
