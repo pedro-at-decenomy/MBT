@@ -13,16 +13,16 @@ The following are some helpful notes on how to run PIVX Core on your native plat
 
 Unpack the files into a directory and run:
 
-- `bin/pivx-qt` (GUI) or
+- `bin/mbt-qt` (GUI) or
 - `bin/pivxd` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run pivx-qt.exe.
+Unpack the files into a directory, and then run mbt-qt.exe.
 
 ### macOS
 
-Drag PIVX-Qt to your applications folder, and then run PIVX-Qt.
+Drag mbt-Qt to your applications folder, and then run mbt-Qt.
 
 ### Need Help?
 
