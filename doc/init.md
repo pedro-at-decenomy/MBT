@@ -84,9 +84,9 @@ OpenRC).
 ### macOS
 
 Binary:              `/usr/local/bin/mbtd`
-Configuration file:  `~/Library/Application Support/PIVX/mbt.conf`
-Data directory:      `~/Library/Application Support/PIVX`
-Lock file:           `~/Library/Application Support/PIVX/.lock`
+Configuration file:  `~/Library/Application Support/mbt/mbt.conf`
+Data directory:      `~/Library/Application Support/mbt`
+Lock file:           `~/Library/Application Support/mbt/.lock`
 
 Installing Service Configuration
 -----------------------------------
@@ -104,7 +104,7 @@ NOTE: When installing for systemd in Debian/Ubuntu the .service file needs to be
 
 ### OpenRC
 
-Rename pivxd.openrc to mbtd and drop it in /etc/init.d.  Double
+Rename mbtd.openrc to mbtd and drop it in /etc/init.d.  Double
 check ownership and permissions and make it executable.  Test it with
 `/etc/init.d/mbtd start` and configure it to run on startup with
 `rc-update add mbtd`
@@ -121,10 +121,10 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 
 ### CentOS
 
-Copy pivxd.init to /etc/init.d/mbtd. Test by running `service mbtd start`.
+Copy mbtd.init to /etc/init.d/mbtd. Test by running `service mbtd start`.
 
 Using this script, you can adjust the path and flags to the mbtd program by
-setting the PIVXD and FLAGS environment variables in the file
+setting the mbtd and FLAGS environment variables in the file
 /etc/sysconfig/mbtd. You can also use the DAEMONOPTS environment variable here.
 
 ### macOS
