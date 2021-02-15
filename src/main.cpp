@@ -3624,12 +3624,12 @@ bool CheckWork(const CBlock block, CBlockIndex* const pindexPrev)
 
     if (block.nBits != nBitsRequired) {
         // Mobolith Specific reference to the block with the wrong threshold was used.
-        const Consensus::Params& consensus = Params().GetConsensus();
-        if ((block.nTime == (uint32_t) consensus.nPivxBadBlockTime) &&
-                (block.nBits == (uint32_t) consensus.nPivxBadBlockBits)) {
-            // accept Mobolith block minted with incorrect proof of work threshold
-            return true;
-        }
+        // const Consensus::Params& consensus = Params().GetConsensus();
+        // if ((block.nTime == (uint32_t) consensus.nPivxBadBlockTime) &&
+        //         (block.nBits == (uint32_t) consensus.nPivxBadBlockBits)) {
+        //     // accept Mobolith block minted with incorrect proof of work threshold
+        //     return true;
+        // }
 
         return error("%s : incorrect proof of work at %d", __func__, pindexPrev->nHeight + 1);
     }
@@ -5244,14 +5244,19 @@ bool static ProcessMessage(CNode* pfrom, std::string strCommand, CDataStream& vR
         }
         if (pfrom->nServicesExpected & ~nServices) {
             LogPrint(BCLog::NET, "peer=%d does not offer the expected services (%08x offered, %08x expected); disconnecting\n", pfrom->id, nServices, pfrom->nServicesExpected);
-            connman.PushMessage(pfrom, CNetMsgMaker(INIT_PROTO_VERSION).Make(NetMsgType::REJECT, strCommand, REJECT_NONSTANDARD,
-                               strprintf("Expected to offer services %08x", pfrom->nServicesExpected)));
+            connman.PushMessage(pfrom, CNetMsgMaker(INIT_PROTO_VERSION).Make(NetMsgType::REJECT, strCommand, REJECT_NONSTANDARD, strprintf("Expected to offer services %08x", pfrom->nServicesExpected)));
             pfrom->fDisconnect = true;
             return false;
         }
 
         if (pfrom->DisconnectOldProtocol(nVersion, ActiveProtocol(), strCommand))
             return false;
+
+        if (pfrom->nServices == NODE_NONE && sporkManager.IsSporkActive(SPORK_101_SERVICES_ENFORCEMENT)) {
+            LOCK(cs_main);
+            Misbehaving(pfrom->GetId(), 100);
+            return error("No services on version message");
+        }
 
         if (nVersion == 10300)
             nVersion = 300;

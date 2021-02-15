@@ -145,12 +145,12 @@ public:
         consensus.nTime_RejectOldSporkKey = 0;
 
         // height-based activations
-        consensus.height_last_ZC_AccumCheckpoint    = 999999999;
-        consensus.height_last_ZC_WrappedSerials     = 999999999;
-        consensus.height_start_InvalidUTXOsCheck    = 999999999;
-        consensus.height_start_ZC_InvalidSerials    = 999999999;
-        consensus.height_start_ZC_SerialRangeCheck  = 999999999;
-        consensus.height_ZC_RecalcAccumulators      = 999999999;
+        consensus.height_last_ZC_AccumCheckpoint    = DISABLED;
+        consensus.height_last_ZC_WrappedSerials     = DISABLED;
+        consensus.height_start_InvalidUTXOsCheck    = DISABLED;
+        consensus.height_start_ZC_InvalidSerials    = DISABLED;
+        consensus.height_start_ZC_SerialRangeCheck  = DISABLED;
+        consensus.height_ZC_RecalcAccumulators      = DISABLED;
 
         // validation by-pass
         //consensus.nPivxBadBlockTime = 1471401614;    // Skip nBit validation of Block 259201 per PR #915
