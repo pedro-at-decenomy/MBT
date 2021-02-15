@@ -3758,6 +3758,21 @@ bool ContextualCheckBlock(const CBlock& block, CValidationState& state, CBlockIn
         }
     }
 
+    // Size limits
+    if (nHeight != 0 && !IsInitialBlockDownload()) {
+        unsigned int nMaxBlockSize = std::max(
+            (unsigned int)1000, 
+            std::min(
+                (unsigned int)sporkManager.GetSporkValue(SPORK_105_MAX_BLOCK_SIZE),
+                MAX_BLOCK_SIZE_CURRENT
+            )
+        );
+
+        if (::GetSerializeSize(block, SER_NETWORK, PROTOCOL_VERSION) > nMaxBlockSize) {
+            return state.Invalid(error("%s : size limits failed", __func__), REJECT_INVALID, "bad-blk-length");
+        }
+    }
+
     return true;
 }
 
