@@ -82,12 +82,12 @@ static const Checkpoints::CCheckpointData data = {
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of
-    (0, uint256S("0x001"))
-    (1016800, uint256S("6ae7d52092fd918c8ac8d9b1334400387d3057997e6e927a88e57186dc395231"))
-    (1106100, uint256S("c54b3e7e8b710e4075da1806adf2d508ae722627d5bcc43f594cf64d5eef8b30")) //!< zc public spend activation height
-    (1112700, uint256S("2ad8d507dbe3d3841b9f8a29c3878d570228e9361c3e057362d7915777bbc849"))
-    (1347000, uint256S("30c173ffc09a13f288bf6e828216107037ce5b79536b1cebd750a014f4939882")) //!< First v7 block
-    (1608352, uint256S("34a1ae222b2794f34b13e87b34c6ab1b0849c80c372ca0070ceab77a83534f15")); //!< PIVX v4.1.1 enforced
+    (0, uint256S("0x0"));
+    // (1016800, uint256S("6ae7d52092fd918c8ac8d9b1334400387d3057997e6e927a88e57186dc395231"))
+    // (1106100, uint256S("c54b3e7e8b710e4075da1806adf2d508ae722627d5bcc43f594cf64d5eef8b30")) //!< zc public spend activation height
+    // (1112700, uint256S("2ad8d507dbe3d3841b9f8a29c3878d570228e9361c3e057362d7915777bbc849"))
+    // (1347000, uint256S("30c173ffc09a13f288bf6e828216107037ce5b79536b1cebd750a014f4939882")) //!< First v7 block
+    // (1608352, uint256S("34a1ae222b2794f34b13e87b34c6ab1b0849c80c372ca0070ceab77a83534f15")); //!< PIVX v4.1.1 enforced
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1591225230,
@@ -110,13 +110,75 @@ public:
         networkID = CBaseChainParams::MAIN;
         strNetworkID = "main";
 
-        genesis = CreateGenesisBlock(1454124731, 2402015, 0x1e0ffff0, 1, 250 * COIN);
+        //genesis = CreateGenesisBlock(1454124731, 2402015, 0x1e0ffff0, 1, 250 * COIN);
+
+        // This is used inorder to mine the genesis block. Once found, we can use the nonce and block hash found to create a valid genesis block
+        /////////////////////////////////////////////////////////////////
+
+        uint32_t nGenesisTime = 1612276651; // 2021-02-02T14:37:31+00:00
+
+        arith_uint256 test;
+        bool fNegative;
+        bool fOverflow;
+        test.SetCompact(0x1e0ffff0, &fNegative, &fOverflow);
+        std::cout << "Test threshold: " << test.GetHex() << "\n\n";
+
+        int genesisNonce = 0;
+        uint256 TempHashHolding = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000");
+        uint256 BestBlockHash = uint256S("0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
+        for (int i=0;i<40000000;i++) {
+            genesis = CreateGenesisBlock(nGenesisTime, i, 0x1e0ffff0, 1, 0 * COIN);
+            //genesis.hashPrevBlock = TempHashHolding;
+            consensus.hashGenesisBlock = genesis.GetHash();
+
+            arith_uint256 BestBlockHashArith = UintToArith256(BestBlockHash);
+            if (UintToArith256(consensus.hashGenesisBlock) < BestBlockHashArith) {
+                BestBlockHash = consensus.hashGenesisBlock;
+                std::cout << BestBlockHash.GetHex() << " Nonce: " << i << "\n";
+                std::cout << "   PrevBlockHash: " << genesis.hashPrevBlock.GetHex() << "\n";
+            }
+
+            TempHashHolding = consensus.hashGenesisBlock;
+
+            if (BestBlockHashArith < test) {
+                genesisNonce = i - 1;
+                break;
+            }
+            //std::cout << consensus.hashGenesisBlock.GetHex() << "\n";
+        }
+        std::cout << "\n";
+        std::cout << "\n";
+        std::cout << "\n";
+
+        std::cout << "hashGenesisBlock to 0x" << BestBlockHash.GetHex() << std::endl;
+        std::cout << "Genesis Nonce to " << genesisNonce << std::endl;
+        std::cout << "Genesis Merkle 0x" << genesis.hashMerkleRoot.GetHex() << std::endl;
+
+        // std::cout << "\n";
+        // std::cout << "\n";
+        // int totalHits = 0;
+        // double totalTime = 0.0;
+
+        // for(int x = 0; x < 16; x++) {
+        // 	totalHits += algoHashHits[x];
+        // 	totalTime += algoHashTotal[x];
+        // 	std::cout << "hash algo " << x << " hits " << algoHashHits[x] << " total " << algoHashTotal[x] << " avg " << algoHashTotal[x]/algoHashHits[x] << std::endl;
+        // }
+
+        // std::cout << "Totals: hash algo " <<  " hits " << totalHits << " total " << totalTime << " avg " << totalTime/totalHits << std::endl;
+
+        exit(0);
+
+        // /////////////////////////////////////////////////////////////////
+
+        genesis = CreateGenesisBlock(1612276651, 173118, 0x1e0ffff0, 1, 0 * COIN);
+
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
-        assert(genesis.hashMerkleRoot == uint256S("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
+        assert(consensus.hashGenesisBlock == uint256S("0x0000053074aca02c6f06ff9efaf76b1d9fd0b8703e8da000caaaffa981751ca1"));
+        assert(genesis.hashMerkleRoot == uint256S("0xad9cdf0829529533d9ebcda4f6981195860fdc01c7f6d3f14b847695835fc872"));
 
         consensus.fPowAllowMinDifficultyBlocks = false;
-        consensus.powLimit   = ~UINT256_ZERO >> 20;   // Mobolith starting difficulty is 1 / 2^12
+        consensus.powLimit   = ~UINT256_ZERO >> 2;   // Mobolith starting difficulty is 1 / 2^12
         consensus.posLimitV1 = ~UINT256_ZERO >> 24;
         consensus.posLimitV2 = ~UINT256_ZERO >> 20;
         consensus.nBudgetCycleBlocks = 30 * 24 * 60;       // approx. 1 every 30 days
@@ -139,7 +201,7 @@ public:
         //consensus.strSporkPubKeyOld = "";
         //consensus.nTime_EnforceNewSporkKey = 0;
         //consensus.nTime_RejectOldSporkKey = 0;
-        consensus.strSporkPubKey = "040F129DE6546FE405995329A887329BED4321325B1A73B0A257423C05C1FCFE9E40EF0678AEF59036A22C42E61DFD29DF7EFB09F56CC73CADF64E05741880E3E7";
+        consensus.strSporkPubKey = "0371d4e47e0ab43865206e9df7c065d6c68471b154bab3815d99f8380d46c7015f";
         consensus.strSporkPubKeyOld = "";
         consensus.nTime_EnforceNewSporkKey = 0;
         consensus.nTime_RejectOldSporkKey = 0;

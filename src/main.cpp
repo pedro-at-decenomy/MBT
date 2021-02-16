@@ -2395,7 +2395,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     LogPrint(BCLog::BENCH, "      - Connect %u transactions: %.2fms (%.3fms/tx, %.3fms/txin) [%.2fs]\n", (unsigned)block.vtx.size(), 0.001 * (nTime1 - nTimeStart), 0.001 * (nTime1 - nTimeStart) / block.vtx.size(), nInputs <= 1 ? 0 : 0.001 * (nTime1 - nTimeStart) / (nInputs - 1), nTimeConnect * 0.000001);
 
     //PoW phase redistributed fees to miner. PoS stage destroys fees.
-    CAmount nExpectedMint = GetBlockValue(pindex->pprev->nHeight);
+    CAmount nExpectedMint = GetBlockValue(pindex->pprev->nHeight + 1);
     if (block.IsProofOfWork())
         nExpectedMint += nFees;
 
@@ -3435,7 +3435,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
 
     // Check that the header is valid (particularly PoW).  This is mostly
     // redundant with the call in AcceptBlockHeader.
-    if (!CheckBlockHeader(block, state, !IsPoS))
+    if (!CheckBlockHeader(block, state, !IsPoS && fCheckPOW))
         return false;
 
     // All potential-corruption validation must be done before we do any
@@ -3750,13 +3750,13 @@ bool ContextualCheckBlock(const CBlock& block, CValidationState& state, CBlockIn
         }
 
     // Enforce block.nVersion=2 rule that the coinbase starts with serialized block height
-    if (pindexPrev) { // pindexPrev is only null on the first block which is a version 1 block.
-        CScript expect = CScript() << nHeight;
-        if (block.vtx[0].vin[0].scriptSig.size() < expect.size() ||
-            !std::equal(expect.begin(), expect.end(), block.vtx[0].vin[0].scriptSig.begin())) {
-            return state.DoS(100, false, REJECT_INVALID, "bad-cb-height", false, "block height mismatch in coinbase");
-        }
-    }
+    // if (pindexPrev) { // pindexPrev is only null on the first block which is a version 1 block.
+    //     CScript expect = CScript() << nHeight;
+    //     if (block.vtx[0].vin[0].scriptSig.size() < expect.size() ||
+    //         !std::equal(expect.begin(), expect.end(), block.vtx[0].vin[0].scriptSig.begin())) {
+    //         return state.DoS(100, false, REJECT_INVALID, "bad-cb-height", false, "block height mismatch in coinbase");
+    //     }
+    // }
 
     // Size limits
     if (nHeight != 0 && !IsInitialBlockDownload()) {
